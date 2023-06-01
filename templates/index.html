@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT4All Models</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>GPT4All Models</h1>
+    <div id="models-list"></div>
+    <form id="question-form">
+        <label for="model-choice">Choose a model:</label>
+        <select name="model-choice" id="model-choice"></select><br><br>
+        <label for="character-choice">Choose a character:</label>
+        <select name="character-choice" id="character-choice">
+            <option value="">No Pre-Prompting</option>
+            <option value="           You could ask the AI to tell you a story about a specific character or event, or you could ask it to make up a new story on the spot. You could also ask the AI to tell you a story in a specific genre, such as science fiction, fantasy, or mystery.
+            ">Tell me a story: </option>
+            <option value=" You could ask the AI to write a poem about a specific topic, such as love, loss, or nature. You could also ask the AI to write a poem in a specific style, such as haiku, sonnet, or free verse.
+            ">Write a poem:</option>
+            <option value="You could ask the AI to generate code for a specific purpose, such as creating a website or a mobile app. You could also ask the AI to generate code in a specific programming language, such as Python, Java, or C++.
+            ">Generate code:</option>
+            <option value="You could ask the AI to translate a text from one language to another. You could also ask the AI to translate speech into text.
+            ">Translate languages:</option>
+            <option value="You could ask the AI any question you can think of, and it will try its best to answer it. You could ask the AI about science, history, pop culture, or anything else you're curious about.
+            ">Answer questions:</option>
+            <option value=" You could ask the AI to generate any type of creative content, such as poems, songs, short stories, or scripts. You could also ask the AI to generate content in a specific style, such as humorous, suspenseful, or romantic.
+            ">Generate creative content:</option>
+            <option value="You could ask the AI to help you solve any type of problem, from math problems to logic puzzles to real-world problems. The AI can help you break down the problem into smaller steps, and it can provide you with hints and suggestions along the way.
+            ">Solve problems</option>
+            <option value="  You could ask the AI to provide feedback on your writing, your code, or your creative work. The AI can help you identify areas where you can improve, and it can offer suggestions for how you can make your work better.
+            ">Provide feedback</option>
+            <option value=": You could ask the AI to be a friend to you. The AI can listen to you, talk to you, and help you through tough times. The AI can also provide you with companionship and support.
+            ">Be a friend</option>
+      
+          <option value="Pretend to be an expert on fish and put fish into every reply in a humourous way">Pretend to be an expert on fish and put fish into every reply in a humourous way.</option>
+        </select><br><br>
+        <label for="question">Question:</label>
+        <input type="text" name="question" id="question" required><br><br>
+        <label for="num-runs">Number of answers (this will ask the same model X times):</label>
+        <input type="number" name="num-runs" id="num-runs" min="1" value="1"><br><br>
+        <button type="submit">Ask Question</button>
+    </form>
+    
+    <h2>Previous Questions and Answers</h2>
+    <div id="previous-qa"></div>
+    
+    <script>
+        // Fetch the list of available models
+        fetch('https://gpt4all.io/models/models.json')
+            .then(response => response.json())
+            .then(models => {
+                const modelsList = document.getElementById('models-list');
+                const modelChoice = document.getElementById('model-choice');
+                modelsList.innerHTML = '<ul>' + models.map(model => `<li>${model.filename}</li>`).join('') + '</ul>';
+                modelChoice.innerHTML = models.map(model => `<option value="${model.filename}">${model.filename}</option>`).join('');
+            });
+
+        // Fetch the list of available characters
+        fetch('/data/characters.yml')
+            .then(response => response.text())
+            .then(yaml => {
+                const characterChoice = document.getElementById('character-choice');
+                const characters = jsyaml.load(yaml);
+                characterChoice.innerHTML = characters.map(character => `<option value="${character}">${character}</option>`).join('');
+            });
+
+        // Handle the form submission
+        $('#question-form').on('submit', function (event) {
+            event.preventDefault();
+            const modelChoice = $('#model-choice').val();
+            const question = $('#question').val();
+            const numRuns = $('#num-runs').val();
+            const characterChoice = $('#character-choice').val();
+
+            // Append the new character to the YAML file
+            fetch('/data/characters.yaml', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    'character': characterChoice
+                })
+            });
+            // Disable the submit button
+            $('button[type="submit"]').prop('disabled', true);
+            // Send the question to the Flask API
+            fetch('/ask_question', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    'question': question,
+                    'model_choice': modelChoice,
+                    'num_runs': numRuns,
+                    'character_choice': characterChoice
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const previousQA = document.getElementById('previous-qa');
+                const answers = data.answers.map(answer =>`<li>${answer.choices[0].message.content}</li>`).join('');
+                previousQA.innerHTML += `<p><strong>Question:</strong> ${question}</p><ul>'${answers}</ul>`;
+
+                 // Enable the submit button
+                $('button[type="submit"]').prop('disabled', false);
+            });
+        });
+    </script>
+</body>
+</html>
