@@ -34,17 +34,32 @@ def index():
 @app.route('/ask_question', methods=['POST'])
 def ask_question():
     data = request.get_json()
-    question_from_request = data.get('question')
-    num_runs = int(data.get('num_runs', 1))
-    character_choice = data.get('character_choice', 'A Helpful Person')
-    answers = []
-    with GPT4All(data.get('model_choice')) as model:  # Pass the model name as an argument
-        for _ in range(num_runs):
-            question = character_choice + ' ' + question_from_request
-            answer = model.generate(question)
-            answers.append(answer)
+    question = data['question']
+    model_choice_1 = data['model_choice_1']
+    model_choice_2 = data['model_choice_2']
+    num_runs = int(data['num_runs']) 
+   
 
-    return jsonify({'answers': answers})
+    conversation_history = [question]
+
+    for i in range(num_runs):
+        # Model 1 answers
+        answer_1 = get_answer_from_model(model_choice_1, conversation_history)
+        conversation_history.append(answer_1)
+
+        # Model 2 answers
+        answer_2 = get_answer_from_model(model_choice_2, conversation_history)
+        conversation_history.append(answer_2)
+
+    return jsonify({'conversation_history': conversation_history})
+
+
+def get_answer_from_model(model_choice, conversation_history):
+    with GPT4All(model_choice) as model:
+        prompt = ' '.join(conversation_history) 
+        completion = model.generate(prompt)
+        answer_content = completion['choices'][0]['message']['content']
+    return answer_content
 
 if __name__ == '__main__':
     app.run(debug=True)
