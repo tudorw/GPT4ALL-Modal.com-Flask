@@ -10,8 +10,11 @@
     <h1>GPT4All Models</h1>
     <div id="models-list"></div>
     <form id="question-form">
-        <label for="model-choice">Choose a model:</label>
-        <select name="model-choice" id="model-choice"></select><br><br>
+      
+        <label for="model-choice-1">Choose Model 1:</label>
+<select name="model-choice-1" id="model-choice-1"></select><br><br>
+<label for="model-choice-2">Choose Model 2:</label>
+<select name="model-choice-2" id="model-choice-2"></select><br><br>
         <label for="character-choice">Choose a character:</label>
         <select name="character-choice" id="character-choice">
             <option value="">No Pre-Prompting</option>
@@ -52,9 +55,11 @@
             .then(response => response.json())
             .then(models => {
                 const modelsList = document.getElementById('models-list');
-                const modelChoice = document.getElementById('model-choice');
+                const modelChoice1 = document.getElementById('model-choice-1');
+                const modelChoice2 = document.getElementById('model-choice-2');
                 modelsList.innerHTML = '<ul>' + models.map(model => `<li>${model.filename}</li>`).join('') + '</ul>';
-                modelChoice.innerHTML = models.map(model => `<option value="${model.filename}">${model.filename}</option>`).join('');
+                modelChoice1.innerHTML = models.map(model => `<option value="${model.filename}">${model.filename}</option>`).join('');
+                modelChoice2.innerHTML = models.map(model => `<option value="${model.filename}">${model.filename}</option>`).join('');
             });
 
         // Fetch the list of available characters
@@ -69,7 +74,8 @@
         // Handle the form submission
         $('#question-form').on('submit', function (event) {
             event.preventDefault();
-            const modelChoice = $('#model-choice').val();
+            const modelChoice1 = $('#model-choice-1').val();
+            const modelChoice2 = $('#model-choice-2').val();
             const question = $('#question').val();
             const numRuns = $('#num-runs').val();
             const characterChoice = $('#character-choice').val();
@@ -94,7 +100,8 @@
                 },
                 body: JSON.stringify({
                     'question': question,
-                    'model_choice': modelChoice,
+                    'model_choice_1': modelChoice1,
+                    'model_choice_2': modelChoice2,
                     'num_runs': numRuns,
                     'character_choice': characterChoice
                 })
@@ -102,8 +109,11 @@
             .then(response => response.json())
             .then(data => {
                 const previousQA = document.getElementById('previous-qa');
-                const answers = data.answers.map(answer =>`<li>${answer.choices[0].message.content}</li>`).join('');
-                previousQA.innerHTML += `<p><strong>Question:</strong> ${question}</p><ul>'${answers}</ul>`;
+                const conversation = data.conversation_history.map((message, index) => {
+                    const role = index % 2 === 0 ? 'User' : 'Assistant';
+                    return `<p><strong>${role}:</strong> ${message}</p>`;
+                }).join('');
+                previousQA.innerHTML += conversation;
 
                  // Enable the submit button
                 $('button[type="submit"]').prop('disabled', false);
