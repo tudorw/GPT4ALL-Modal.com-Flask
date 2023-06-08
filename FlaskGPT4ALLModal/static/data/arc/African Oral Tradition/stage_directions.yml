@@ -1,0 +1,85 @@
+Cast:
+  - Protagonist: [name of the actor/actress]
+  - Mentor: [name of the actor/actress]
+  - Allies: [list of names of the actors/actresses]
+
+Artifacts:
+  - Protagonist's Gift: [description of the gift]
+  - Epicenter of Calamity: [description of the location]
+  - Hidden Sanctuary: [description of the sanctuary]
+
+Props:
+  - Cultural Symbols: [description of the symbols]
+  - Ancestral Wisdom Document: [description of the document]
+  - Symbol of Unity: [description of the item]
+
+Scenes:
+  - Introduction:
+    - Action: Introduction to the protagonist, an ordinary member of a community with a hidden spiritual gift.
+    - Set: [description of the setting]
+    - Props: [list of props used in the scene]
+
+  - Call to Adventure:
+    - Action: The protagonist receives a call to adventure from an elder.
+    - Set: [description of the setting]
+    - Props: [list of props used in the scene]
+
+  - Cultivation:
+    - Action: The protagonist accepts the challenge and starts cultivating their spiritual gift.
+    - Set: [description of the training area]
+    - Props: [list of cultural symbols]
+
+  - Community Engagement:
+    - Action: The protagonist encourages their community to join the quest to confront the calamity.
+    - Set: [description of the setting]
+    - Props: [list of props used in the scene]
+
+  - Journey:
+    - Action: The protagonist and the community embark on a sacred journey to the epicenter of the calamity.
+    - Set: [description of the journey location]
+    - Props: [list of props used in the scene]
+
+  - Setbacks and Challenges:
+    - Action: Along the way, the group faces challenges and obstacles, testing their unity.
+    - Set: [description of the setting]
+    - Props: [list of props used in the scene]
+
+  - Retreat and Reflection:
+    - Action: The group finds a hidden sanctuary where they rejuvenate and renew their resolve.
+    - Set: [description of the sanctuary]
+    - Props: [list of props used in the scene]
+
+  - Strategy Formulation:
+    - Action: The group formulates a strategy based on ancestral wisdom to address the calamity.
+    - Set: [description of the setting]
+    - Props: [list of ancestral wisdom documents]
+
+  - Unity:
+    - Action: The group deepens their unity and strengthens their resolve for the challenge ahead.
+    - Set: [description of the setting]
+    - Props: [list of symbol of unity]
+
+  - Confrontation:
+    - Action: The group arrives at the epicenter of the calamity and confronts it.
+    - Set: [description of the epicenter]
+    - Props: [list of props used in the scene]
+
+  - Triumph:
+    - Action: With collective effort and the protagonist's gift, they succeed in dispelling the calamity.
+    - Set: [description of the setting]
+    - Props: [list of props used in the scene]
+
+  - Celebrating Resilience:
+    - Action: The community rejoices, their joy mingled with the sorrow of the trials they faced.
+    - Set: [description of the celebration area]
+    - Props: [list of props used in the scene]
+
+  - Reflection and Stories:
+    - Action: The protagonist reflects on their growth, their journey becoming a part of the community's lore.
+    - Set: [description of the setting]
+    - Props: [list of props used in the scene]
+
+  - New Beginning:
+    - Action: The elder imparts one last piece of wisdom before the protagonist takes their place as a new elder.
+    - Set: [description of the setting]
+    - Props: [list of props used in the scene]

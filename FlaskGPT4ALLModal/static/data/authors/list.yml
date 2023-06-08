@@ -1,0 +1,401 @@
+- prompt: In the style of Isabelle Eberhardt from Algeria writing travel literature.
+  completion: Isabelle Eberhardt's adventurous travel literature from Algeria.
+  metadata:
+    - date_of_birth: February 17, 1877
+    - status: deceased
+    - birthplace: Geneva, Switzerland
+    - death_place: Aïn Séfra, Algeria
+    - excerpt: Isabelle Eberhardt was a Swiss explorer and author who lived and travelled extensively in North Africa. She often wrote about her experiences in Algeria.
+- prompt: In the style of David Malouf from Australia writing historical fiction.
+  completion: David Malouf's vivid historical fiction from Australia.
+  metadata:
+    - date_of_birth: March 20, 1934
+    - status: alive
+    - birthplace: Brisbane, Australia
+    - excerpt: David Malouf is an Australian writer known for his novels, short stories and poetry. His work often reflects on Australian culture and history.
+- prompt: In the style of Thomas Bernhard from Austria writing philosophical novels.
+  completion: Thomas Bernhard's intense philosophical novels from Austria.
+  metadata:
+    - date_of_birth: February 9, 1931
+    - status: deceased
+    - birthplace: Heerlen, Netherlands
+    - death_place: Gmunden, Austria
+    - excerpt: Thomas Bernhard was an Austrian novelist and playwright known for his provocative style and criticism of Austrian society.
+- prompt: In the style of Yevgeny Zamyatin from Russia writing dystopian fiction.
+  completion: Yevgeny Zamyatin's groundbreaking dystopian fiction from Russia.
+  metadata:
+    - date_of_birth: February 1, 1884
+    - status: deceased
+    - birthplace: Lebedyan, Russia
+    - death_place: Paris, France
+    - excerpt: Yevgeny Zamyatin was a Russian author and critic, most famous for his dystopian novel "We," a significant influence on George Orwell's "1984."
+
+- prompt: In the style of Ngũgĩ wa Thiong'o from Kenya writing post-colonial literature.
+  completion: Ngũgĩ wa Thiong'o's incisive post-colonial literature from Kenya.
+  metadata:
+    - date_of_birth: January 5, 1938
+    - status: alive
+    - birthplace: Kamiriithu, British Kenya
+    - excerpt: Ngũgĩ wa Thiong'o is a Kenyan writer and academic. His work includes novels, plays, short stories, and essays, ranging from literary and social criticism to children's literature.
+- prompt: In the style of Humayun Ahmed from Bangladesh writing magical realism.
+  completion: Humayun Ahmed's unique magical realism from Bangladesh.
+  metadata:
+    - date_of_birth: November 13, 1948
+    - status: deceased
+    - birthplace: Kutubpur, Mymensingh, East Bengal (now Bangladesh)
+    - death_place: New York City, U.S.
+    - excerpt: Humayun Ahmed was a Bangladeshi writer, dramatist, and filmmaker. His writing style is characterized by magical realism, and he is often considered a significant figure in Bangladeshi literature.
+- prompt: In the style of Amos Tutuola from Nigeria writing folkloric fantasy.
+  completion: Amos Tutuola's unique folkloric fantasy from Nigeria.
+  metadata:
+    - date_of_birth: June 20, 1920
+    - status: deceased
+    - birthplace: Abeokuta, Nigeria
+    - death_place: Ibadan, Nigeria
+    - excerpt: Amos Tutuola was a Nigerian author known for his unique storytelling style, which blends Yoruba folktales with English. His debut novel, "The Palm-Wine Drinkard," has gained international recognition.
+- prompt: In the style of Yan Lianke from China writing social critique.
+  completion: Yan Lianke's sharp social critique from China.
+  metadata:
+    - date_of_birth: August 24, 1958
+    - status: alive
+    - birthplace: Song County, Henan, China
+    - excerpt: Yan Lianke is a contemporary Chinese author best known for his novel "Dream of Ding Village", a critique of China's policy regarding the blood trade which led to the spread of HIV in Henan province.
+- prompt: In the style of Gabriel García Márquez from Colombia writing magical realism.
+  completion: Gabriel García Márquez's vivid magical realism from Colombia.
+  metadata:
+    - date_of_birth: March 6, 1927
+    - status: deceased
+    - birthplace: Aracataca, Colombia
+    - death_place: Mexico City, Mexico
+    - excerpt: Gabriel García Márquez was a Colombian novelist, short-story writer, screenwriter and journalist. He is known for his novels such as "One Hundred Years of Solitude", "Autumn of the Patriarch", and "Love in the Time of Cholera". He was awarded the Nobel Prize in Literature in 1982.
+- prompt: In the style of Khaled Hosseini from Afghanistan writing historical fiction.
+  completion: Khaled Hosseini's heartfelt historical fiction from Afghanistan.
+  metadata:
+    - date_of_birth: March 4, 1965
+    - status: alive
+    - birthplace: Kabul, Afghanistan
+    - excerpt: Khaled Hosseini is an Afghan-born American novelist and physician. His 2003 debut novel, "The Kite Runner", was an international bestseller, and he has since published several other successful novels that highlight the history and culture of his native country.
+- prompt: In the style of Hans Christian Andersen from Denmark writing fairy tales.
+  completion: Hans Christian Andersen's timeless fairy tales from Denmark.
+  metadata:
+    - date_of_birth: April 2, 1805
+    - status: deceased
+    - birthplace: Odense, Denmark
+    - death_place: Copenhagen, Denmark
+    - excerpt: Hans Christian Andersen was a Danish author, best remembered for his fairy tales, a literary genre he so mastered that he himself has become as mythical as the tales he wrote. Andersen's fairy tales, consisting of 156 stories across nine volumes and translated into more than 125 languages, have become culturally embedded in the West's collective consciousness.
+- prompt: In the style of Sofi Oksanen from Finland writing historical dramas.
+  completion: Sofi Oksanen's poignant historical dramas from Finland.
+  metadata:
+    - date_of_birth: January 7, 1977
+    - status: alive
+    - birthplace: Jyväskylä, Finland
+    - excerpt: Sofi Oksanen is a Finnish writer and playwright. Known for her sharp societal and political critique, her work often deals with the history of Estonia from different perspectives, and the impact of Soviet rule on individual lives and personal freedoms.
+- prompt: In the style of Victor Hugo from France writing historical fiction.
+  completion: Victor Hugo's epic historical fiction from France.
+  metadata:
+    - date_of_birth: February 26, 1802
+    - status: deceased
+    - birthplace: Besançon, France
+    - death_place: Paris, France
+    - excerpt: Victor Marie Hugo was a French poet, novelist, and dramatist of the Romantic movement. He is considered one of the greatest and best-known French writers. His most famous works include "Les Misérables" and "The Hunchback of Notre-Dame".
+- prompt: In the style of Hermann Hesse from Germany writing philosophical fiction.
+  completion: Hermann Hesse's profound philosophical fiction from Germany.
+  metadata:
+    - date_of_birth: July 2, 1877
+    - status: deceased
+    - birthplace: Calw, Württemberg, Germany
+    - death_place: Montagnola, Ticino, Switzerland
+    - excerpt: Hermann Hesse was a German-Swiss poet, novelist, and painter. His best-known works include "Steppenwolf", "Siddhartha", and "The Glass Bead Game", each of which explores an individual's search for authenticity, self-knowledge and spirituality.
+- prompt: In the style of Nikos Kazantzakis from Greece writing philosophical novels.
+  completion: Nikos Kazantzakis's thought-provoking philosophical novels from Greece.
+  metadata:
+    - date_of_birth: February 18, 1883
+    - status: deceased
+    - birthplace: Heraklion, Crete, Kingdom of Greece
+    - death_place: Freiburg, Germany
+    - excerpt: Nikos Kazantzakis was a Greek writer and philosopher, celebrated for his novel "Zorba the Greek", considered his magnum opus. He became known globally after the 1964 release of the Michael Cacoyannis film "Zorba the Greek".
+- prompt: In the style of Jhumpa Lahiri from India writing immigrant experience.
+  completion: Jhumpa Lahiri's sensitive portrayal of the immigrant experience from India.
+  metadata:
+    - date_of_birth: July 11, 1967
+    - status: alive
+    - birthplace: London, United Kingdom
+    - excerpt: Jhumpa Lahiri is an American author known for her short stories, novels, and essays in English, and, more recently, in Italian. Her debut collection of stories "Interpreter of Maladies" won the Pulitzer Prize for Fiction in 2000.
+- prompt: In the style of Marjane Satrapi from Iran writing autobiographical graphic novels.
+  completion: Marjane Satrapi's poignant autobiographical graphic novels from Iran.
+  metadata:
+    - date_of_birth: November 22, 1969
+    - status: alive
+    - birthplace: Rasht, Iran
+    - excerpt: Marjane Satrapi is an Iranian-born French graphic novelist, cartoonist, illustrator, film director, and children's book author. She is best known for her autobiographical graphic novels that portray her experiences as a child and young woman in Iran during and after the Islamic revolution.
+- prompt: In the style of James Joyce from Ireland writing stream of consciousness.
+  completion: James Joyce's intricate stream of consciousness writing from Ireland.
+  metadata:
+    - date_of_birth: February 2, 1882
+    - status: deceased
+    - birthplace: Dublin, Ireland
+    - death_place: Zürich, Switzerland
+    - excerpt: James Joyce was an Irish novelist, short story writer, poet, teacher, and literary critic. He is widely considered to be one of the most important and influential writers of the 20th century. Joyce is best known for his novel "Ulysses", a landmark work in which the episodes of Homer's Odyssey are paralleled in an array of contrasting literary styles.
+- prompt: In the style of Haruki Murakami from Japan writing magical realism.
+  completion: Haruki Murakami's captivating magical realism from Japan.
+  metadata:
+    - date_of_birth: January 12, 1949
+    - status: alive
+    - birthplace: Kyoto, Japan
+    - excerpt: Haruki Murakami is a contemporary Japanese writer known for his blend of magical realism and the surreal. His novels often feature solitary protagonists who experience strange events in real world settings.
+- prompt: In the style of Ngũgĩ wa Thiong'o from Kenya writing post-colonial literature.
+  completion: Ngũgĩ wa Thiong'o's incisive post-colonial literature from Kenya.
+  metadata:
+    - date_of_birth: January 5, 1938
+    - status: alive
+    - birthplace: Kamiriithu, British Kenya
+    - excerpt: Ngũgĩ wa Thiong'o is a Kenyan writer and academic. His work includes novels, plays, short stories, and essays, ranging from literary and social criticism to children's literature.
+- prompt: In the style of Hanan al-Shaykh from Lebanon writing feminist literature.
+  completion: Hanan al-Shaykh's bold feminist literature from Lebanon.
+  metadata:
+    - date_of_birth: November 12, 1945
+    - status: alive
+    - birthplace: Beirut, Lebanon
+    - excerpt: Hanan al-Shaykh is a Lebanese author of contemporary literature. Her books often focus on women in the Arab world, their personal freedom, and how they negotiate their way through conservative societies.
+
+- prompt: In the style of Mia Couto from Mozambique writing magical realism.
+  completion: Mia Couto's distinctive magical realism from Mozambique.
+  metadata:
+    - date_of_birth: July 5, 1955
+    - status: alive
+    - birthplace: Beira, Mozambique
+    - excerpt: Mia Couto is a Mozambican author and biologist known for his imaginative blend of African and European narrative traditions, fusing indigenous history and mythology with contemporary political and social realities.
+- prompt: In the style of Harry Mulisch from Netherlands writing philosophical fiction.
+  completion: Harry Mulisch's intellectual philosophical fiction from Netherlands.
+  metadata:
+    - date_of_birth: July 29, 1927
+    - status: deceased
+    - birthplace: Haarlem, Netherlands
+    - death_place: Amsterdam, Netherlands
+    - excerpt: Harry Mulisch was one of the Netherlands' most influential authors, with his work exploring the nature of reality and truth. His best-known work is "The Assault", a novel that delves into themes of guilt, responsibility, and fate against the backdrop of World War II.
+
+- prompt: In the style of Witi Ihimaera from New Zealand writing Maori literature.
+  completion: Witi Ihimaera's insightful Maori literature from New Zealand.
+  metadata:
+    - date_of_birth: February 7, 1944
+    - status: alive
+    - birthplace: Gisborne, New Zealand
+    - excerpt: Witi Ihimaera is a prominent New Zealand author. He was the first Maori writer to publish both a book of short stories and a novel. His works often focus on modern Maori culture and the relationship between Maori and Pakeha (non-Maori).
+
+- prompt: In the style of Chinua Achebe from Nigeria writing African literature.
+  completion: Chinua Achebe's profound African literature from Nigeria.
+  metadata:
+    - date_of_birth: November 16, 1930
+    - status: deceased
+    - birthplace: Ogidi, Anambra, Nigeria
+    - death_place: Boston, Massachusetts, United States
+    - excerpt: Chinua Achebe was a Nigerian novelist, poet, professor, and critic. His first novel "Things Fall Apart" often considered his best, is the most widely read book in modern African literature.
+- prompt: In the style of Mohsin Hamid from Pakistan writing post-colonial narratives.
+  completion: Mohsin Hamid's compelling post-colonial narratives from Pakistan.
+  metadata:
+    - date_of_birth: July 23, 1971
+    - status: alive
+    - birthplace: Lahore, Pakistan
+    - excerpt: Mohsin Hamid is a British-Pakistani novelist and writer. His novels are notable for their unique narrative styles, often exploring themes of identity, migration, and the complexities of the post-colonial experience. His most well-known work, "The Reluctant Fundamentalist," has been translated into over 30 languages.
+
+- prompt: In the style of Mario Vargas Llosa from Peru writing political dramas.
+  completion: Mario Vargas Llosa's intricate political dramas from Peru.
+  metadata:
+    - date_of_birth: March 28, 1936
+    - status: alive
+    - birthplace: Arequipa, Peru
+    - excerpt: Mario Vargas Llosa is a Peruvian-Spanish writer, politician, journalist, essayist, and college professor. A significant figure of Latin American literature, Vargas Llosa's novels often reflect his political views and the realities of the Peruvian society.
+
+- prompt: In the style of Jose Rizal from Philippines writing nationalist literature.
+  completion: Jose Rizal's moving nationalist literature from Philippines.
+  metadata:
+    - date_of_birth: June 19, 1861
+    - status: deceased
+    - birthplace: Calamba, Laguna, Spanish East Indies
+    - death_place: Bagumbayan, Manila, Spanish East Indies
+    - excerpt: José Rizal was a Filipino nationalist and polymath during the tail end of the Spanish colonial period of the Philippines. His works and writings, which helped to establish the Filipino identity, include the novels "Noli Me Tangere" and "El Filibusterismo."
+- prompt: In the style of Stanisław Lem from Poland writing science fiction.
+  completion: Stanisław Lem's profound science fiction from Poland.
+  metadata:
+    - date_of_birth: September 12, 1921
+    - status: deceased
+    - birthplace: Lwów, Poland (now Lviv, Ukraine)
+    - death_place: Kraków, Poland
+    - excerpt: Stanisław Lem was a Polish writer of science fiction, philosophy, and satire. His books, from science fiction novels to philosophical treatises, have been translated into over 40 languages and have sold over 45 million copies.
+
+- prompt: In the style of José Saramago from Portugal writing allegorical fiction.
+  completion: José Saramago's evocative allegorical fiction from Portugal.
+  metadata:
+    - date_of_birth: November 16, 1922
+    - status: deceased
+    - birthplace: Azinhaga, Santarém, Portugal
+    - death_place: Tías, Las Palmas, Spain
+    - excerpt: José Saramago was a Portuguese writer and recipient of the 1998 Nobel Prize in Literature. His works often present subversive perspectives on historic events, emphasizing the human factor.
+
+- prompt: In the style of Alexander Pushkin from Russia writing romantic poetry.
+  completion: Alexander Pushkin's exquisite romantic poetry from Russia.
+  metadata:
+    - date_of_birth: June 6, 1799
+    - status: deceased
+    - birthplace: Moscow, Russian Empire
+    - death_place: Saint Petersburg, Russian Empire
+    - excerpt: Alexander Sergeyevich Pushkin was a Russian poet, playwright, and novelist, who is considered the founder of modern Russian literature. Pushkin is best known for his poetry, and he is often credited with developing the Russian literary language.
+- prompt: In the style of Rajaa Alsanea from Saudi Arabia writing women's literature.
+  completion: Rajaa Alsanea's insightful women's literature from Saudi Arabia.
+  metadata:
+    - date_of_birth: May 27, 1981
+    - status: alive
+    - birthplace: Riyadh, Saudi Arabia
+    - excerpt: Rajaa Alsanea is a Saudi writer who became famous through her novel "Girls of Riyadh". The book, which was initially banned in Saudi Arabia due to its depiction of young women's lives in the country, offers a remarkable insight into the societal and gender dynamics of the Kingdom.
+
+- prompt: In the style of Irvine Welsh from Scotland writing gritty urban narratives.
+  completion: Irvine Welsh's unflinching gritty urban narratives from Scotland.
+  metadata:
+    - date_of_birth: September 27, 1958
+    - status: alive
+    - birthplace: Leith, Edinburgh, Scotland
+    - excerpt: Irvine Welsh is a Scottish novelist, playwright, and short story writer. His novel "Trainspotting", and its sequel, "Porno", are among his most famous works, depicting the lives of various characters in the Edinburgh heroin scene.
+
+- prompt: In the style of Khaled Hosseini from Afghanistan writing emotive narratives.
+  completion: Khaled Hosseini's deeply emotive narratives from Afghanistan.
+  metadata:
+    - date_of_birth: March 4, 1965
+    - status: alive
+    - birthplace: Kabul, Afghanistan
+    - excerpt: Khaled Hosseini is an Afghan-born American novelist and physician. His debut novel, "The Kite Runner", was a bestseller and is considered a touchstone of modern Afghan literature. It was followed by two other successful novels, "A Thousand Splendid Suns" and "And the Mountains Echoed".
+- prompt: In the style of J.M. Coetzee from South Africa writing allegorical fiction.
+  completion: J.M. Coetzee's complex allegorical fiction from South Africa.
+  metadata:
+    - date_of_birth: February 9, 1940
+    - status: alive
+    - birthplace: Cape Town, South Africa
+    - excerpt: J.M. Coetzee is a South African-born Australian novelist, essayist, linguist, translator, and recipient of the 2003 Nobel Prize in Literature. His work includes waiting for the barbarians, disgrace, and life & times of Michael K, with themes of colonialism and post-colonialism, politics, and human suffering.
+- prompt: In the style of Han Kang from South Korea writing existential fiction.
+  completion: Han Kang's thought-provoking existential fiction from South Korea.
+  metadata:
+    - date_of_birth: November 27, 1970
+    - status: alive
+    - birthplace: Gwangju, South Korea
+    - excerpt: Han Kang is a South Korean writer notable for her delicate yet emotionally intense novels and short stories. Her novel "The Vegetarian" won the Man Booker International Prize for fiction in 2016.
+- prompt: In the style of Gabriel Garcia Marquez from Colombia writing magical realism.
+  completion: Gabriel Garcia Marquez's enchanting magical realism from Colombia.
+  metadata:
+    - date_of_birth: March 6, 1927
+    - status: deceased
+    - birthplace: Aracataca, Colombia
+    - death_place: Mexico City, Mexico
+    - excerpt: Gabriel Garcia Marquez was a Colombian novelist, short-story writer, screenwriter, and journalist, known affectionately as Gabo throughout Latin America. He is considered one of the most significant authors of the 20th century and one of the best in the Spanish language, with works including "One Hundred Years of Solitude", "Love in the Time of Cholera", and "Chronicle of a Death Foretold".
+- prompt: In the style of Max Frisch from Switzerland writing existential dramas.
+  completion: Max Frisch's introspective existential dramas from Switzerland.
+  metadata:
+    - date_of_birth: May 15, 1911
+    - status: deceased
+    - birthplace: Zurich, Switzerland
+    - death_place: Zurich, Switzerland
+    - excerpt: Max Frisch was a Swiss playwright and novelist, regarded as highly representative of German literature after World War II. His work confronts issues of identity, individuality, responsibility and morality, often with a dose of absurdist humor.
+- prompt: In the style of Naguib Mahfouz from Egypt writing socio-political narratives.
+  completion: Naguib Mahfouz's nuanced socio-political narratives from Egypt.
+  metadata:
+    - date_of_birth: December 11, 1911
+    - status: deceased
+    - birthplace: Cairo, Egypt
+    - death_place: Cairo, Egypt
+    - excerpt: Naguib Mahfouz was an Egyptian writer who won the 1988 Nobel Prize for Literature. He is regarded as one of the first contemporary writers of Arabic literature, and is best known for The Cairo Trilogy... "Palace Walk", "Palace of Desire", and "Sugar Street".
+- prompt: In the style of Paulo Coelho from Brazil writing inspirational fiction.
+  completion: Paulo Coelho's stirring inspirational fiction from Brazil.
+  metadata:
+    - date_of_birth: August 24, 1947
+    - status: alive
+    - birthplace: Rio de Janeiro, Brazil
+    - excerpt: Paulo Coelho is a Brazilian lyricist and novelist, best known for his novel "The Alchemist". His writing is characterized by its simple, symbolic style and the themes of self-discovery and spirituality.
+- prompt: In the style of Zakaria Tamer from Syria writing short stories.
+  completion: Zakaria Tamer's captivating short stories from Syria.
+  metadata:
+    - date_of_birth: January 2, 1931
+    - status: alive
+    - birthplace: Damascus, Syria
+    - excerpt: Zakaria Tamer is one of the most influential short story writers in the Arab world, known for his biting satire and social commentary. His works often critique social injustice and oppression in the Middle East.
+- prompt: In the style of Lu Xun from China writing societal critique.
+  completion: Lu Xun's profound societal critique from China.
+  metadata:
+    - date_of_birth: September 25, 1881
+    - status: deceased
+    - birthplace: Shaoxing, Zhejiang, Qing Empire
+    - death_place: Shanghai, Republic of China
+    - excerpt: Lu Xun was a leading figure of modern Chinese literature. Writing in Vernacular Chinese as well as Classical Chinese, Lu Xun was a novelist, editor, translator, literary critic, essayist, and poet. His works are known for their sharp and incisive look at the culture and society of early modern China.
+- prompt: In the style of Chinua Achebe from Nigeria writing African literature.
+  completion: Chinua Achebe's powerful African literature from Nigeria.
+  metadata:
+    - date_of_birth: November 16, 1930
+    - status: deceased
+    - birthplace: Ogidi, Anambra, Nigeria
+    - death_place: Boston, Massachusetts, United States
+    - excerpt: Albert Chinụalụmọgụ Achebe was a Nigerian novelist, poet, professor, and critic. His first novel, "Things Fall Apart," is often considered his masterpiece and is one of the most widely read books in modern African literature.
+- prompt: In the style of Mustapha Tlili from Tunisia writing sociopolitical narratives.
+  completion: Mustapha Tlili's riveting sociopolitical narratives from Tunisia.
+  metadata:
+    - date_of_birth: September 5, 1937
+    - status: alive
+    - birthplace: Al-Qayrawan, Tunisia
+    - excerpt: Mustapha Tlili is a Tunisian novelist and translator. His work often focuses on rural Tunisia and the contrast between its traditional, agrarian society and the rapidly modernizing urban areas. His acclaimed novel "Lion Mountain" provides a penetrating examination of this dynamic.
+- prompt: In the style of Orhan Pamuk from Turkey writing historical novels.
+  completion: Orhan Pamuk's richly detailed historical novels from Turkey.
+  metadata:
+    - date_of_birth: June 7, 1952
+    - status: alive
+    - birthplace: Istanbul, Turkey
+    - excerpt: Orhan Pamuk is a Turkish novelist, screenwriter, academic and recipient of the 2006 Nobel Prize in Literature. His works deal with themes such as identity, history, memory and narrative, often set in Istanbul and blending historical, cultural and personal stories.
+- prompt: In the style of Taras Shevchenko from Ukraine writing epic poetry.
+  completion: Taras Shevchenko's monumental epic poetry from Ukraine.
+  metadata:
+    - date_of_birth: March 9, 1814
+    - status: deceased
+    - birthplace: Moryntsi, Zvenyhorodka county, Kiev Governorate, Russian Empire
+    - death_place: Saint Petersburg, Russian Empire
+    - excerpt: Taras Shevchenko was a Ukrainian poet, writer, artist, public and political figure, as well as folklorist and ethnographer. His literary heritage is regarded as the foundation of modern Ukrainian literature and, to a large extent, the modern Ukrainian language.
+- prompt: In the style of Eduardo Galeano from Uruguay writing historical narratives.
+  completion: Eduardo Galeano's compelling historical narratives from Uruguay.
+  metadata:
+    - date_of_birth: September 3, 1940
+    - status: deceased
+    - birthplace: Montevideo, Uruguay
+    - death_place: Montevideo, Uruguay
+    - excerpt: Eduardo Galeano was a Uruguayan journalist, writer, and novelist. His best-known works are "Open Veins of Latin America" and the "Memory of Fire Trilogy", which have been translated into twenty languages and are known for their unique blend of historical fact, fiction, and journalism.
+- prompt: In the style of R.K. Narayan from India writing relatable stories set in fictional towns.
+  completion: R.K. Narayan's endearing narratives set in fictional towns from India.
+  metadata:
+    - date_of_birth: October 10, 1906
+    - status: deceased
+    - birthplace: Madras, British India (now Chennai, India)
+    - death_place: Madras, India (now Chennai, India)
+    - excerpt: R.K. Narayan was an Indian writer known for his work set in the fictional South Indian town of Malgudi. He was a leading author of early Indian literature in English along with Mulk Raj Anand and Raja Rao.
+- prompt: In the style of Luisa Valenzuela from Argentina writing surrealist fiction.
+  completion: Luisa Valenzuela's unique surrealist fiction from Argentina.
+  metadata:
+    - date_of_birth: November 26, 1938
+    - status: alive
+    - birthplace: Buenos Aires, Argentina
+    - excerpt: Luisa Valenzuela is an Argentine novelist and short story writer known for her work in the genre of magical realism. Her writings are often characterized by an experimental style and a thematic interest in silence and the mysteries of personal identity.
+- prompt: In the style of Eduardo Galeano from Uruguay writing historical narratives.
+  completion: Eduardo Galeano's compelling historical narratives from Uruguay.
+  metadata:
+    - date_of_birth: September 3, 1940
+    - status: deceased
+    - birthplace: Montevideo, Uruguay
+    - death_place: Montevideo, Uruguay
+    - excerpt: Eduardo Galeano was a Uruguayan journalist, writer, and novelist. His best-known works are "Open Veins of Latin America" and the "Memory of Fire Trilogy", which have been translated into twenty languages and are known for their unique blend of historical fact, fiction, and journalism.
+- prompt: In the style of R.K. Narayan from India writing relatable stories set in fictional towns.
+  completion: R.K. Narayan's endearing narratives set in fictional towns from India.
+  metadata:
+    - date_of_birth: October 10, 1906
+    - status: deceased
+    - birthplace: Madras, British India (now Chennai, India)
+    - death_place: Madras, India (now Chennai, India)
+    - excerpt: R.K. Narayan was an Indian writer known for his work set in the fictional South Indian town of Malgudi. He was a leading author of early Indian literature in English along with Mulk Raj Anand and Raja Rao.
+- prompt: In the style of Luisa Valenzuela from Argentina writing surrealist fiction.
+  completion: Luisa Valenzuela's unique surrealist fiction from Argentina.
+  metadata:
+    - date_of_birth: November 26, 1938
+    - status: alive
+    - birthplace: Buenos Aires, Argentina
+    - excerpt: Luisa Valenzuela is an Argentine novelist and short story writer known for her work in the genre of magical realism. Her writings are often characterized by an experimental style and a thematic interest in silence and the mysteries of personal identity.

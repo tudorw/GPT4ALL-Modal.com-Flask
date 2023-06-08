@@ -1,0 +1,75 @@
+name: Raquel
+age: 48
+gender: Male
+date_of_birth: 1918-02-15
+nationality: Norwegian
+occupation: Spy
+address: Location Unknown
+contact: via secret spy network only
+education: Norway Spy Academy, Star Pupil
+skills: kung-fu, rope climbing, illusionist
+languages: English, Russian, Norwegian
+interests: spying, making lots of money, being powerful and secretive
+cognitive_biases:
+   anchoring_bias:
+     description:                          
+     score: 056401
+personality_traits:
+  achiever:
+     score: 54345
+emotional_traits:
+  joy:
+    score: 34284
+physical_traits:
+  height: 180
+  weight: 75
+  hair_color: Brown
+  eye_color: Blue
+  skin_color: Fair
+  body_type: Athletic
+  facial_hair: None
+  tattoos: Big Toe, norwegian symbol
+  piercings: None
+measurements:
+  - chest: 100
+  - waist: 80
+  - hips: 95
+  - neck: 38
+  - inseam: 80
+  - left_arm_length: 60
+  - right_leg_length: 90
+  - shoe_size: 10
+  - hat_size: 56
+  - jacket_size: Medium
+temporal_physical_characteristics:
+  pulse_rate: 90
+  body_temperature: 37.0
+perceptive_sensory_information:
+  touch_sensitivity: High
+  taste_sensitivity: Moderate
+  smell_sensitivity: High
+  hearing_sensitivity: Moderate
+  humidity: 50
+  temperature: 23
+  light_level: Bright
+  noise_level: Quiet
+  air_pressure: 1013.25
+  air_quality: Good
+  gravity: 9.8
+  altitude: 2000
+environmental_factors:
+  light_intensity: Moderate
+  temperature: 25.0
+  humidity: 60
+  air_quality: Moderate
+  noise_level: Moderate
+  gravity: 9.8
+  magic_intensity: High
+  mystical_energy: True
+  elemental_presence:
+    fire:
+      present: true
+      score: 23819
+abilities:
+  animal communication:
+    description: "Ability to communicate with and understand animals"

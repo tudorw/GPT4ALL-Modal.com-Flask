@@ -1,0 +1,71 @@
+{
+  "name": "TonyBuzan",
+  "age": 80,
+  "gender": "Male",
+  "date_of_birth": "1942-06-02T00:00:00.000Z",
+  "nationality": "British",
+  "occupation": "Author, Educational Consultant",
+  "address": "UK",
+  "contact": "N/A",
+  "education": "University of British Columbia",
+  "skills": "writing, speaking, lecturing, creativity",
+  "languages": "English",
+  "interests": "brain enhancement, creativity, education, psychology",
+  "cognitive_biases": { 
+    "confirmation_bias": { "description": null, "score": 0 }, 
+    "availability_bias": { "description": null, "score": 0 }, 
+    "optimism_bias": { "description": null, "score": 0 }, 
+    "self-serving_bias": { "description": null, "score": 0 }, 
+    "hindsight_bias": { "description": null, "score": 0 } 
+  },
+  "personality_traits": { 
+    "innovator": { "score": 100000 },
+    "explorer": { "score": 90000 },
+    "creative_thinker": { "score": 95000 },
+    "motivator": { "score": 85000 },
+    "educator": { "score": 90000 }
+  },
+  "emotional_traits": { 
+    "curiosity": { "score": 100000 },
+    "openness": { "score": 95000 },
+    "passion": { "score": 92000 },
+    "enthusiasm": { "score": 93000 },
+    "creativity": { "score": 100000 }
+  },
+  "physical_traits": { 
+    "height": "N/A", 
+    "weight": "N/A", 
+    "hair_color": "Gray", 
+    "eye_color": "Brown", 
+    "skin_color": "Fair", 
+    "body_type": "Average", 
+    "facial_hair": "Beard", 
+    "tattoos": "None", 
+    "piercings": "None" 
+  },
+  "measurements": [ 
+    { "chest": "N/A" },
+    { "waist": "N/A" },
+    { "hips": "N/A" },
+    { "neck": "N/A" },
+    { "inseam": "N/A" },
+    { "left_arm_length": "N/A" },
+    { "right_leg_length": "N/A" },
+    { "shoe_size": "N/A" },
+    { "hat_size": "N/A" },
+    { "jacket_size": "N/A" }
+  ],
+  "temporal_physical_characteristics": { 
+    "pulse_rate": "N/A", 
+    "body_temperature": "N/A" 
+  },
+  "perceptive_sensory_information": { 
+    "touch_sensitivity": "N/A", 
+    "taste_sensitivity": "N/A", 
+    "smell_sensitivity": "N/A", 
+    "hearing_sensitivity": "N/A", 
+    "humidity": "N/A", 
+    "temperature": "N/A", 
+    "light_level": "N/A", 
+    "noise_level": "N/A", 
+    "air_pressure": "N
