@@ -1,0 +1,74 @@
+name: ZebraZero
+age: 55
+gender: male
+date_of_birth: unknown
+nationality: Welsh
+occupation: Spy and Expert Sailor
+address: Location Unknown
+contact: via secret spy network only
+education: Wales Spy Academy, Star Pupil
+skills: jujitsu, base jumping, free climbing, master of disguise
+languages: English, Russian, Norwegian
+interests: keeping the world safe from villians and crooks
+cognitive_biases:
+   anchoring_bias:
+     description:                          
+     score: 026401
+personality_traits:
+  achiever:
+     score: 64345
+emotional_traits:
+  joy:
+    score: 14284
+physical_traits:
+  height: 160
+  weight: 85
+  hair_color: Grey
+  eye_color: Albino
+  skin_color: Fair
+  body_type: Athletic
+  facial_hair: None
+  tattoos: yes, a egg timer where a watch would sit on the wrist
+  piercings: None
+measurements:
+  - chest: 100
+  - waist: 80
+  - hips: 95
+  - neck: 38
+  - inseam: 80
+  - left_arm_length: 60
+  - right_leg_length: 90
+  - shoe_size: 10
+  - hat_size: 56
+  - jacket_size: Medium
+temporal_physical_characteristics:
+  pulse_rate: 70
+  body_temperature: 37.2
+perceptive_sensory_information:
+  touch_sensitivity: High
+  taste_sensitivity: Moderate
+  smell_sensitivity: Low
+  hearing_sensitivity: Moderate
+  humidity: 50
+  temperature: 23
+  light_level: Bright
+  noise_level: Quiet
+  air_pressure: 1013.25
+  air_quality: Good
+  gravity: 9.8
+  altitude: 2000
+environmental_factors:
+  light_intensity: Moderate
+  temperature: 25.0
+  humidity: 60
+  air_quality: Moderate
+  noise_level: Moderate
+  gravity: 9.8
+  magic_intensity: High
+  mystical_energy: False
+  elemental_presence:
+    fire:
+      present: true
+      score: 23819
+abilities:
+  telekenisis:

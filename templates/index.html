@@ -5,71 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPT4All Models</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.0/js-yaml.min.js"></script>
 </head>
 <body>
-    <h1>GPT4All Models</h1>
-    <div id="models-list"></div>
+    <h1>Infinifiction, an endless episodic series.</h1>
+    <div id="models-list" style="display:none"></div>
+    <div style="float:right;max-width: 400px; padding:0.5em;border:1px solid green;">
+        <div id="model-details-1"></div>
+        <div id="model-details-2"></div>
+        <div id="story-arc-details"></div>
+        <div id="character-details"></div>
+    </div>
     <form id="question-form">
       
-        <label for="model-choice-1">Choose Model 1:</label>
+        <label for="model-choice-1">LLM that plays characters (chat):</label><br><br>
 <select name="model-choice-1" id="model-choice-1"></select><br><br>
-<label for="model-choice-2">Choose Model 2:</label>
+<label for="model-choice-2">LLM that manages summaries and keeping things on track (instructional):</label><br><br>
 <select name="model-choice-2" id="model-choice-2"></select><br><br>
-        <label for="character-choice">Choose a character:</label>
-        <select name="character-choice" id="character-choice">
-            <option value="">No Pre-Prompting</option>
-            <option value="           You could ask the AI to tell you a story about a specific character or event, or you could ask it to make up a new story on the spot. You could also ask the AI to tell you a story in a specific genre, such as science fiction, fantasy, or mystery.
-            ">Tell me a story: </option>
-            <option value=" You could ask the AI to write a poem about a specific topic, such as love, loss, or nature. You could also ask the AI to write a poem in a specific style, such as haiku, sonnet, or free verse.
-            ">Write a poem:</option>
-            <option value="You could ask the AI to generate code for a specific purpose, such as creating a website or a mobile app. You could also ask the AI to generate code in a specific programming language, such as Python, Java, or C++.
-            ">Generate code:</option>
-            <option value="You could ask the AI to translate a text from one language to another. You could also ask the AI to translate speech into text.
-            ">Translate languages:</option>
-            <option value="You could ask the AI any question you can think of, and it will try its best to answer it. You could ask the AI about science, history, pop culture, or anything else you're curious about.
-            ">Answer questions:</option>
-            <option value=" You could ask the AI to generate any type of creative content, such as poems, songs, short stories, or scripts. You could also ask the AI to generate content in a specific style, such as humorous, suspenseful, or romantic.
-            ">Generate creative content:</option>
-            <option value="You could ask the AI to help you solve any type of problem, from math problems to logic puzzles to real-world problems. The AI can help you break down the problem into smaller steps, and it can provide you with hints and suggestions along the way.
-            ">Solve problems</option>
-            <option value="  You could ask the AI to provide feedback on your writing, your code, or your creative work. The AI can help you identify areas where you can improve, and it can offer suggestions for how you can make your work better.
-            ">Provide feedback</option>
-            <option value=": You could ask the AI to be a friend to you. The AI can listen to you, talk to you, and help you through tough times. The AI can also provide you with companionship and support.
-            ">Be a friend</option>
-      
-          <option value="Pretend to be an expert on fish and put fish into every reply in a humourous way">Pretend to be an expert on fish and put fish into every reply in a humourous way.</option>
-        </select><br><br>
-        <label for="question">Question:</label>
-        <input type="text" name="question" id="question" required><br><br>
-        <label for="num-runs">Number of answers (this will ask the same model X times):</label>
-        <input type="number" name="num-runs" id="num-runs" min="1" value="1"><br><br>
-        <button type="submit">Ask Question</button>
+<label for="story-arc-choice">Story Arc:</label><br><br>
+<select name="story-arc-choice" id="story-arc-choice"></select><br><br>
+<label for="character-choice">In The Style of:</label><br><br>
+<select name="character-choice" id="character-choice"></select><br><br>
+<label for="question">Write a scene and a setting:</label><br>
+        <textarea name="question" id="question" required  rows="12" cols="80">the main protagonist is ZebraZero, disguised as the ships navigator, a youthful 40 year old ex-hipster from a wealthy family who has spurned his background to fight wrong doers and those endangering others, he is a master of disguise and only his mysterious benefactor Mr Q and his sidekick Flint known for his tough looks, hard attitude and warm heart know his true identity, Mr Q is location unknown, Flint is in disguise as a ship hand. The story begins onboard the submarine as the protagonist and antagonist meet for the first time...</textarea><br><br>
+        <label for="num-runs">Let The AI Run before Human Input:</label><br><br>
+        <input type="number" name="num-runs" id="num-runs" min="1" value="3" size="1"> Times<br><br>
+        <button type="submit">Start the infinifiction machine and treat the AI respectfully.</button>
+        <button type="submit">Start the infinifiction machine and treat the AI neutrally.</button>
+        <button type="submit">Start the infinifiction machine and treat the AI disrespectfully.</button>
     </form>
-    
+<hr>
+<hr>
+    <div id="cast-tree" style="width:30%;padding:0.05em;border:1px dotted green;float:left;"></div><div style="float:left;width:30%;padding:0.05em"><div id="yaml-display"></div></div>
     <h2>Previous Questions and Answers</h2>
     <div id="previous-qa"></div>
-    
-    <script>
-        // Fetch the list of available models
-        fetch('https://gpt4all.io/models/models.json')
-            .then(response => response.json())
-            .then(models => {
-                const modelsList = document.getElementById('models-list');
-                const modelChoice1 = document.getElementById('model-choice-1');
-                const modelChoice2 = document.getElementById('model-choice-2');
-                modelsList.innerHTML = '<ul>' + models.map(model => `<li>${model.filename}</li>`).join('') + '</ul>';
-                modelChoice1.innerHTML = models.map(model => `<option value="${model.filename}">${model.filename}</option>`).join('');
-                modelChoice2.innerHTML = models.map(model => `<option value="${model.filename}">${model.filename}</option>`).join('');
-            });
 
-        // Fetch the list of available characters
-        fetch('/data/characters.yml')
-            .then(response => response.text())
-            .then(yaml => {
-                const characterChoice = document.getElementById('character-choice');
-                const characters = jsyaml.load(yaml);
-                characterChoice.innerHTML = characters.map(character => `<option value="${character}">${character}</option>`).join('');
-            });
+    <script>
+      
+     // Fetch the list of available models
+fetch('/static/models.json')
+  .then(response => response.json())
+  .then(models => {
+    const modelChoice1 = document.getElementById('model-choice-1');
+    const modelChoice2 = document.getElementById('model-choice-2');
+    const modelDetails1 = document.getElementById('model-details-1');
+    const modelDetails2 = document.getElementById('model-details-2');
+   
+    modelChoice1.innerHTML = models.map(model => `<option value="${model.filename}">${model.filename}</option>`).join('');
+    modelChoice2.innerHTML = models.map(model => `<option value="${model.filename}">${model.filename}</option>`).join('');
+
+    // Add event listeners for model-choice-1 and model-choice-2 dropdowns
+    modelChoice1.addEventListener('change', function() {
+      updateModelDetails(this.value, models, modelDetails1);
+    });
+
+    modelChoice2.addEventListener('change', function() {
+      updateModelDetails(this.value, models, modelDetails2);
+    });
+});
+
+function updateModelDetails(selectedModelFilename, models, modelDetailsDiv) {
+  const selectedModel = models.find(model => model.filename === selectedModelFilename);
+  if (selectedModel) {
+    modelDetailsDiv.innerHTML = `
+      <p><strong>Description:</strong> ${selectedModel.description}</p>
+    `;
+  } else {
+    modelDetailsDiv.innerHTML = '';
+  }
+}
+  // Fetch the list of available story arcs
+  fetch('static/data/arc/story_arcs.yml')
+.then(response => response.text())
+.then(yaml => {
+  const storyArcChoice = document.getElementById('story-arc-choice');
+  const storyArcDetails = document.getElementById('story-arc-details');
+  const storyArcs = jsyaml.load(yaml).storyArcs;
+  console.log('storyArcs:', storyArcs); // Add this line to debug
+  storyArcChoice.innerHTML = storyArcs.map(arc => `<option value="${arc.arcName}">${arc.arcName}</option>`).join('');
+
+  // Add event listener for story-arc-choice dropdown
+  storyArcChoice.addEventListener('change', function() {
+    const selectedArcName = this.value;
+    const selectedArc = storyArcs.find(arc => arc.arcName === selectedArcName);
+    if (selectedArc) {
+      storyArcDetails.innerHTML = `
+        <p><strong>Description:</strong> ${selectedArc.description}</p>
+        <p><strong>First Mention:</strong> ${selectedArc.firstMention}</p>
+        <p><strong>Examples:</strong></p>
+        <ul>
+          ${selectedArc.examples.map(example => `<li>${example}</li>`).join('')}
+        </ul>
+      `;
+    } else {
+      storyArcDetails.innerHTML = '';
+    }
+  });
+});
+
+// Fetch the list of available author characters which should probably be called aIuthors
+fetch('static/data/authors/list.yml')
+    .then(response => response.text())
+    .then(yaml => {
+      const characterChoice = document.getElementById('character-choice');
+      const characters = jsyaml.load(yaml);
+      characterChoice.innerHTML = characters.map(character => `<option value="${character.name}" data-description="${character.description}">${character.prompt}</option>`).join('');
+
+
+});
+// get the cast list
+fetch('static/data/cast/list.yml')
+  .then(response => response.text())
+  .then(yaml => {
+    const castData = jsyaml.load(yaml);
+    displayCastTree(castData);
+  });
+
+  function displayYaml(yamlPath) {
+  fetch(yamlPath)
+    .then(response => response.text())
+    .then(yaml => {
+      const yamlData = jsyaml.load(yaml);
+      const yamlDisplay = document.getElementById('yaml-display');
+      yamlDisplay.innerHTML = JSON.stringify(yamlData, null, 2);
+    });
+}
+  function displayCastTree(castData, level = 0) {
+  if (!castData || typeof castData !== 'object') return '';
+
+  let treeHtml = '<ul>';
+  for (const key in castData) {
+    if (key === 'Roles' && Array.isArray(castData[key])) {
+      treeHtml += castData[key].map(role => `<li><a href="#" onclick="displayYaml('static/data/cast/${role}')">${role}</a></li>`).join('');
+    } else {
+      treeHtml += `<li><a href="#" onclick="displayYaml('static/data/cast/${key}/profile.yml')">${key}</a></li>${displayCastTree(castData[key], level + 1)}`;
+    }
+  }
+  treeHtml += '</ul>';
+
+  if (level === 0) {
+    document.getElementById('cast-tree').innerHTML = treeHtml;
+  } else {
+    return treeHtml;
+  }
+}
+       
 
         // Handle the form submission
         $('#question-form').on('submit', function (event) {
@@ -79,17 +159,8 @@
             const question = $('#question').val();
             const numRuns = $('#num-runs').val();
             const characterChoice = $('#character-choice').val();
-
-            // Append the new character to the YAML file
-            fetch('/data/characters.yaml', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    'character': characterChoice
-                })
-            });
+            const storyArcChoice = $('#story-arc-choice').val();
+            
             // Disable the submit button
             $('button[type="submit"]').prop('disabled', true);
             // Send the question to the Flask API
@@ -103,15 +174,17 @@
                     'model_choice_1': modelChoice1,
                     'model_choice_2': modelChoice2,
                     'num_runs': numRuns,
-                    'character_choice': characterChoice
+                    'character_choice': characterChoice,
+                    'story_arc_choice': storyArcChoice
                 })
             })
             .then(response => response.json())
             .then(data => {
                 const previousQA = document.getElementById('previous-qa');
                 const conversation = data.conversation_history.map((message, index) => {
-                    const role = index % 2 === 0 ? 'User' : 'Assistant';
-                    return `<p><strong>${role}:</strong> ${message}</p>`;
+                    // const role = index % 2 === 0 ? 'User' : 'Assistant';
+                    // return `<p><strong>${role}:</strong> ${message}</p>`;
+                    return `<p>${message}</p>`;
                 }).join('');
                 previousQA.innerHTML += conversation;
 

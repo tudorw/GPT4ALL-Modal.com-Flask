@@ -1,0 +1,35 @@
+Title: "Zebra Zero, Underwater and Under Fire!"
+Setting: "Aboard a submarine in 1920"
+
+Act One:
+  Introduction:
+    - "Introduction of ZebraZero as the ship's navigator"
+    - "ZebraZero's background as a wealthy ex-hipster is revealed"
+    - "Flint, ZebraZero's sidekick, is introduced as a ship hand"
+    - "Mr. Q, the mysterious benefactor, is mentioned"
+
+  Conflict:
+    - "ZebraZero and the antagonist meet for the first time on the submarine"
+
+Act Two:
+  Rising Action:
+    - "ZebraZero and the antagonist clash"
+    - "ZebraZero's skills as a master of disguise are revealed"
+
+  Climax:
+    - "A major confrontation occurs between ZebraZero and the antagonist"
+
+Act Three:
+  Falling Action:
+    - "The aftermath of the confrontation is dealt with"
+    - "ZebraZero's true identity is threatened to be revealed"
+
+  Resolution:
+    - "The antagonist is defeated"
+    - "ZebraZero's secret identity remains safe"
+
+Characters:
+  ZebraZero: "Ship's navigator and master of disguise"
+  Flint: "ZebraZero's sidekick, disguised as a ship hand"
+  Mr. Q: "ZebraZero's mysterious benefactor, location unknown"
+  Antagonist: "Unknown"

@@ -1,0 +1,231 @@
+emotions:
+  - abbiocco:
+      language: Italian
+      definition: The drowsy, sluggish feeling you get after eating a big meal.
+  - achluophobia:
+      definition: The irrational fear of darkness or dark places.
+  - agape:
+      language: Ancient Greek
+      definition: Selfless, unconditional love that is concerned with the welfare of others.
+  - alacrity:
+      definition: Brisk and cheerful readiness; a lively and eager enthusiasm.
+  - alexithymia:
+      definition: Difficulty in experiencing, expressing, and describing emotional responses.
+  - algia:
+      definition: Pain or suffering, often of a psychological nature.
+  - altschmerz:
+      language: German
+      definition: The weariness with the same old issues that you've always had.
+  - anemoia:
+      definition: Nostalgia for a time you've never known or experienced.
+  - anticipation:
+      id: 9
+      definition: Intensity of anticipation emotion (1-9999)
+  - apprehension:
+      id: 10
+      definition: Intensity of apprehension emotion (1-9999)
+  - arrogance:
+      definition: An exaggerated sense of one's own importance or abilities.
+  - artistry:
+      definition: Creative skill or ability in the arts.
+  - assurance:
+      definition: Confidence or certainty in one's own abilities or qualities.
+  - ataraxia:
+      language: Ancient Greek
+      definition: A state of serene calmness and tranquility; freedom from worry, anxiety, and disturbance.
+  - backpfeifengesicht:
+      language: German
+      definition: A face that is begging to be punched.
+  - charm:
+      definition: The power or quality of delighting, attracting, or fascinating others.
+  - chiaroscuro:
+      language: Italian
+      definition: The interplay of light and shadow in a work of art, especially in painting.
+  - commuovere:
+      language: Italian
+      definition: To be moved to tears by a story or event.
+  - compersion:
+      definition: The feeling of joy one has when experiencing another's joy, such as in witnessing a friend's success or happiness in their romantic relationships.
+  - contentment:
+      id: 19
+      definition: Intensity of contentment emotion (1-9999)
+  - courage:
+      definition: The ability to do something that frightens one; bravery.
+  - defenestration:
+      definition: The act of throwing someone or something out of a window.
+  - disgust:
+      id: 5
+      definition: Intensity of disgust emotion (1-9999)
+  - dormiveglia:
+      language: Italian
+      definition: The space that stretches between sleeping and waking.
+  - dulcinea:
+      language: Spanish
+      definition: A term of endearment for a loved one, inspired by the fictional character from Don Quixote.
+  - elan_vital:
+      language: French
+      definition: The vital force or impulse of life; a creative principle that drives living organisms.
+  - empathy:
+      definition: The ability to understand and share the feelings of another.
+  - ennui:
+      language: French
+      definition: A feeling of listlessness and dissatisfaction arising from a lack of occupation or excitement.
+  - ephemeral:
+      definition: Lasting for a very short time; transient or fleeting.
+  - ergophobia:
+      definition: The abnormal and persistent fear of work or the workplace.
+  - esprit_de_l'escalier:
+      language: French
+      definition: The witty retort or comeback that you think of only when it's too late to use.
+  - exulansis:
+      definition: The tendency to give up trying to talk about an experience because people are unable to relate to it.
+  - fear:
+      id: 2
+      definition: Intensity of fear emotion (1-9999)
+  - fernweh:
+      language: German
+      definition: A longing for far-off places; the opposite of homesickness.
+  - frisson:
+      language: French
+      definition: A sudden, passing sensation of excitement or thrill, often accompanied by a shiver down the spine.
+  - glasnost:
+      language: Russian
+      definition: The policy of openness and transparency in government and business, especially in the Soviet Union during the 1980s.
+  - gratitude:
+      id: 17
+      definition: Intensity of gratitude emotion (1-9999)
+  - guilt:
+      id: 21
+      definition: Intensity of guilt emotion (1-9999)
+  - hanyauku:
+      language: Rukwangali (Namibia)
+      definition: The act of walking on tiptoes on warm sand.
+  - hope:
+      id: 15
+      definition: Intensity of hope emotion (1-9999)
+  - iktsuarpok:
+      language: Inuit
+      definition: The feeling of anticipation while waiting for someone to arrive, often leading to repeatedly checking for their arrival.
+  - interest:
+      id: 11
+      definition: Intensity of interest emotion (1-9999)
+  - iridescence:
+      definition: The phenomenon of certain surfaces appearing to change color as the angle of view or the angle of illumination changes.
+  - kairos:
+      language: Ancient Greek
+      definition: The opportune moment for action or decision; the right time to seize an opportunity.
+  - kummerspeck:
+      language: German
+      definition: Excess weight gained from emotional overeating; literally, "grief bacon."
+  - levity:
+      definition: Lightness of mind, character, or behavior; lack of appropriate seriousness or earnestness.
+  - l'esprit_du_temps:
+      language: French
+      definition: The spirit of the times; the general intellectual, moral, or cultural climate of an era.
+  - limerence:
+      definition: The state of being infatuated or obsessed with another person, typically experienced involuntarily and characterized by a strong desire for reciprocation of one's feelings.
+  - love:
+      id: 14
+      definition: Intensity of love emotion (1-9999)
+  - melancholy:
+      definition: A feeling of pensive sadness, typically with no obvious cause.
+  - metanoia:
+      language: Ancient Greek
+      definition: A transformative change of heart; a spiritual conversion or awakening.
+  - mono_no_aware:
+      language: Japanese
+      definition: The awareness of the transience of things, and a gentle sadness at their passing.
+  - morii:
+      definition: The desire to capture a fleeting experience or moment.
+  - nachojawn:
+      language: Philadelphia slang
+      definition: A large, elaborate, and delicious plate of nachos.
+  - neoteny:
+      definition: The retention of juvenile features in the adult animal; a characteristic of certain species that makes them appear cute or appealing to humans.
+  - ohrwurm:
+      language: German
+      definition: A catchy tune or song that repeatedly runs through a person's mind; literally, "earworm."
+  - onism:
+      definition: The frustration of being stuck in just one body, that inhabits only one place at a time.
+  - orenda:
+      language: Iroquois
+      definition: A supernatural force believed to be present in all things, empowering people to affect the world or effect change in their own lives.
+  - outrage:
+      id: 12
+      definition: An extremely strong reaction of anger, shock, or indignation.
+  - paean:
+      definition: A song of praise or triumph, often used to express thanksgiving or exultation.
+  - pride:
+      id: 23
+      definition: A feeling or deep pleasure or satisfaction derived from one's own achievements.
+  - prosopagnosia:
+      definition: The inability to recognize familiar faces, even one's own, due to a neurological disorder.
+  - quixotic:
+      definition: Exceedingly idealistic; unrealistic and impractical, often inspired by chivalrous or romantic ideals.
+  - redamancy:
+      definition: The act of loving in return; the reciprocation of love.
+  - remorse:
+      id: 20
+      definition: Intensity of remorse emotion (1-9999)
+  - saudade:
+      language: Portuguese
+      definition: A deep emotional state of melancholic longing for a person or thing that is absent or distant.
+  - schadenfreude:
+      language: German
+      definition: The experience of pleasure or joy derived from the misfortunes of others.
+  - seigneur-terraces:
+      language: French
+      definition: People who sit at coffee shops for a long time but spend very little money; literally, "terrace lords."
+  - selcouth:
+      definition: Unfamiliar, rare, strange, and yet marvelous.
+  - serendipity:
+      definition: The occurrence and development of events by chance in a happy or beneficial way.
+  - sobremesa:
+      language: Spanish
+      definition: The time spent lingering at the table after a meal, talking and enjoying each other's company.
+  - sonder:
+      definition: The realization that each random passerby is living a life as vivid and complex as your own.
+  - sprezzatura:
+      language: Italian
+      definition: A certain nonchalance or studied carelessness, especially in art or fashion, that makes difficult tasks seem effortless.
+  - sturmfrei:
+      language: German
+      definition: The freedom and privacy experienced when home alone; literally, "storm-free."
+  - susurrus:
+      definition: A soft murmuring or rustling sound; a whisper.
+  - surprise:
+      id: 3
+      definition: Intensity of surprise emotion (1-9999)
+  - tenebrific:
+      definition: Producing darkness or obscurity; causing gloom or despondency.
+  - trust:
+      id: 1
+      definition: Intensity of trust emotion (1-9999)
+  - tsundoku:
+      language: Japanese
+      definition: The act of acquiring books but allowing them to pile up unread.
+  - ullage:
+      definition: The empty space left in a container, especially a wine bottle, when some of the contents have been used or removed.
+  - velleity:
+      definition: A wish or inclination not strong enough to lead to action.
+  - vigilance:
+      id: 13
+      definition: Intensity of vigilance emotion (1-9999)
+  - wanderlust:
+      definition: A strong, innate desire to roam or travel about.
+  - weltschmerz:
+      language: German
+      definition: A feeling of melancholy and world-weariness; a sentimental pessimism about the state of the world.
+  - wistfulness:
+      definition: A feeling of vague or regretful longing.
+  - xenophobia:
+      definition: The fear or hatred of strangers or foreigners.
+  - yugen:
+      language: Japanese
+      definition: An awareness of the universe that triggers emotional responses that are too deep and mysterious for words.
+  - zemblanity:
+      definition: The inevitable discovery of what we would rather not know, especially in reference to something unpleasant.
+  - zephyr:
+      definition: A soft, gentle breeze.
+  - zeal:
+      definition: Great energy or enthusiasm in pursuit of a cause or objective.
