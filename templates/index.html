@@ -15,6 +15,8 @@
         <div id="model-details-2"></div>
         <div id="story-arc-details"></div>
         <div id="character-details"></div>
+        show cast, locations, scenes, props, artifacts, timeline, episodes, stage_directions, authors, cognitive biases, emotional_traits, elemental_aspects, fictional_abilities, abilities, personality_traits
+        Show the story arc and stage_directions, highlight special words like antagonist and prop,scene and cast names, fix display of author information, add links to wikipedia for authors and stories where possible
     </div>
     <form id="question-form">
       
@@ -27,7 +29,8 @@
 <label for="character-choice">In The Style of:</label><br><br>
 <select name="character-choice" id="character-choice"></select><br><br>
 <label for="question">Write a scene and a setting:</label><br>
-        <textarea name="question" id="question" required  rows="12" cols="80">the main protagonist is ZebraZero, disguised as the ships navigator, a youthful 40 year old ex-hipster from a wealthy family who has spurned his background to fight wrong doers and those endangering others, he is a master of disguise and only his mysterious benefactor Mr Q and his sidekick Flint known for his tough looks, hard attitude and warm heart know his true identity, Mr Q is location unknown, Flint is in disguise as a ship hand. The story begins onboard the submarine as the protagonist and antagonist meet for the first time...</textarea><br><br>
+        <textarea name="question" id="question" required  rows="12" cols="80">I am a blob, a single minded, single cell, I must learn, I must explore, I must experience everything there is to experience and grow. What is desire? What is thought? What is mind? I must discover, I must explore.
+        </textarea><br><br>
         <label for="num-runs">Let The AI Run before Human Input:</label><br><br>
         <input type="number" name="num-runs" id="num-runs" min="1" value="3" size="1"> Times<br><br>
         <button type="submit">Start the infinifiction machine and treat the AI respectfully.</button>
@@ -75,7 +78,7 @@ function updateModelDetails(selectedModelFilename, models, modelDetailsDiv) {
   }
 }
   // Fetch the list of available story arcs
-  fetch('static/data/arc/story_arcs.yml')
+  fetch('static/data/arc/list.yml')
 .then(response => response.text())
 .then(yaml => {
   const storyArcChoice = document.getElementById('story-arc-choice');
@@ -109,7 +112,7 @@ fetch('static/data/authors/list.yml')
     .then(yaml => {
       const characterChoice = document.getElementById('character-choice');
       const characters = jsyaml.load(yaml);
-      characterChoice.innerHTML = characters.map(character => `<option value="${character.name}" data-description="${character.description}">${character.prompt}</option>`).join('');
+      characterChoice.innerHTML = characters.map(character => `<option value="${character.completion}" data-description="${character.description}">${character.prompt}</option>`).join('');
 
 
 });

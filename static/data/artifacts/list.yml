@@ -1,0 +1,163 @@
+  - name: Fountains
+    scene: Palatial Gardens
+    description: Grand water fountains, often with ornate designs and sculptures, adding an element of elegance and regality to the scene.
+  - name: Sculptures
+    scene: Palatial Gardens
+    description: Ornate stone or metal sculptures that provide an artistic and historical atmosphere.
+  - name: Pavilion
+    scene: Palatial Gardens
+    description: A regal outdoor pavilion serving as a focal point for gatherings or events.
+  - name: Blossoming Trees
+    scene: Palatial Gardens
+    description: Vibrant trees in full bloom adding a touch of nature's beauty and color.
+
+  - name: Ice Formations
+    scene: Glacier
+    description: Looming formations of ice that add a stark, awe-inspiring backdrop.
+  - name: Crevasses
+    scene: Glacier
+    description: Deep, often hidden, fissures in the glacier that can serve as a potential danger or obstacle.
+  - name: Glacial Lake
+    scene: Glacier
+    description: A serene lake formed from glacial meltwater, offering a stark contrast to the ice.
+
+  - name: Ancient Trees
+    scene: Forest
+    description: Towering old-growth trees that provide a sense of history and depth.
+  - name: Clearings
+    scene: Forest
+    description: Open spaces in the forest where sunlight streams in, perfect for gatherings or moments of revelation.
+  - name: Stream
+    scene: Forest
+    description: A small, bubbling stream adding an element of tranquil nature sounds.
+  - name: Abandoned Cabin
+    scene: Forest
+    description: An old, disused cabin adding a sense of mystery or history.
+
+  - name: Wooden Jetty
+    scene: Lakeside
+    description: A small wooden pier jutting out onto the lake, great for introspective or romantic scenes.
+  - name: Pebble Beach
+    scene: Lakeside
+    description: A beach made of small pebbles and stones, providing a unique landscape and sound underfoot.
+  - name: Small Boathouse
+    scene: Lakeside
+    description: A rustic structure for storing boats and fishing equipment.
+  - name: Rowboat
+    scene: Lakeside
+    description: A classic wooden rowboat, perfect for scenes on the water.
+
+  - name: Wooden Pier
+    scene: Beach
+    description: A long wooden pier that provides a stunning viewpoint and a location for various activities.
+  - name: Sand Dunes
+    scene: Beach
+    description: Hills of sand formed by wind, adding a sense of a pristine and untouched beach environment.
+  - name: Driftwood
+    scene: Beach
+    description: Pieces of wood washed up on the beach, adding a natural element of beach scenery.
+  - name: Seashell Scatters
+    scene: Beach
+    description: Collections of seashells that add a touch of detail and can serve as focal points for close-up shots.
+  - name: Blossoming Cherry Trees
+    scene: Japanese Garden
+    description: Beautiful cherry trees in full bloom, adding color and visual appeal to the scene.
+  - name: Stone Lanterns
+    scene: Japanese Garden
+    description: Traditional Japanese stone lanterns that provide soft light and cultural significance.
+  - name: Tea House
+    scene: Japanese Garden
+    description: A quaint, traditional Japanese tea house, perfect for intimate scenes or as a focal point.
+  - name: Koi Pond
+    scene: Japanese Garden
+    description: A serene pond filled with colorful koi fish, offering calming water sounds and visual interest.
+
+  - name: Vintage Train
+    scene: Old Train Station
+    description: An old-fashioned locomotive that adds a touch of history and intrigue.
+  - name: Platform Benches
+    scene: Old Train Station
+    description: Wooden benches on the platform, ideal for characters waiting for a train or having a conversation.
+  - name: Station Clock
+    scene: Old Train Station
+    description: A large, vintage clock, adding a sense of urgency or symbolism of time.
+  - name: Luggage Trolleys
+    scene: Old Train Station
+    description: Old-fashioned luggage trolleys, offering a historical touch.
+
+  - name: Skyscrapers
+    scene: Urban Skyline
+    description: Tall, modern buildings that represent a bustling city environment.
+  - name: City Lights
+    scene: Urban Skyline
+    description: Bright city lights that give a vibrant, energetic atmosphere.
+  - name: Rooftop Access
+    scene: Urban Skyline
+    description: Access to a building's rooftop, providing a vantage point for panoramic city views.
+  - name: Helipad
+    scene: Urban Skyline
+    description: A designated landing area for helicopters, often found on top of skyscrapers, adds an element of action or escape.
+
+  - name: Cacti
+    scene: Desert
+    description: Iconic desert plants, can provide cover or serve as points of interest in the barren landscape.
+  - name: Sand Dunes
+    scene: Desert
+    description: Large mounds of sand, sculpted by the wind, that can serve as obstacles or vantage points.
+  - name: Oasis
+    scene: Desert
+    description: A small area of water and vegetation, providing a stark contrast to the surrounding desert.
+  - name: Camel Herd
+    scene: Desert
+    description: A group of camels, symbolizing life in desert regions.
+  - name: Ivy-Covered Walls
+    scene: Abandoned Manor
+    description: Aging walls covered in sprawling ivy, adding to the air of neglect and the passage of time.
+  - name: Grand Staircase
+    scene: Abandoned Manor
+    description: A grand staircase that once hosted elegant entrances, now serving as a haunting centerpiece.
+  - name: Dusty Chandeliers
+    scene: Abandoned Manor
+    description: Once-luxurious chandeliers now dulled by layers of dust, enhancing the atmosphere of decay.
+  - name: Shattered Mirrors
+    scene: Abandoned Manor
+    description: Mirrors with broken glass, symbolizing shattered pasts or foreboding omens.
+
+  - name: Wrecked Ships
+    scene: Ship Graveyard
+    description: The skeletal remains of ships that met their end, creating a haunting seascape.
+  - name: Barnacles and Seaweeds
+    scene: Ship Graveyard
+    description: Sea life clinging to the remains of the ships, demonstrating nature's reclamation.
+  - name: Rusty Anchors
+    scene: Ship Graveyard
+    description: Old, rusty anchors, once a symbol of security, now forgotten and worn.
+  - name: Sunken Treasure Chest
+    scene: Ship Graveyard
+    description: A chest hinting at lost fortunes, adding a spark of adventure or mystery.
+
+  - name: Neon Signs
+    scene: Night Market
+    description: Bright and colorful neon signs, illuminating the streets and creating a lively atmosphere.
+  - name: Food Stalls
+    scene: Night Market
+    description: Stalls selling a variety of local foods, providing sensory interest and cultural depth.
+  - name: Lantern Strings
+    scene: Night Market
+    description: Strings of lanterns hanging overhead, giving a warm and festive feel.
+  - name: Street Musicians
+    scene: Night Market
+    description: Musicians playing local tunes, adding auditory depth and cultural richness.
+
+  - name: Moss-Covered Stones
+    scene: Ancient Ruins
+    description: Old stones covered in moss, showing nature's slow reclaim over the man-made structures.
+  - name: Collapsed Pillars
+    scene: Ancient Ruins
+    description: Fallen pillars that were once grand, speaking to the ruin's past grandeur.
+  - name: Weathered Statues
+    scene: Ancient Ruins
+    description: Statues worn by time, offering a glimpse into the past.
+  - name: Hidden Inscriptions
+    scene: Ancient Ruins
+    description: Old inscriptions that can serve as clues or hold historic significance.

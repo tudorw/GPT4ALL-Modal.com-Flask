@@ -1,0 +1,197 @@
+storyArcs:
+  - arcName: "Evolutionary Empath"
+    description: "The protagonist, an empathic entity, experiences life through various evolutionary stages, gaining emotional wisdom."
+    firstMention: "Empathic entity"
+    examples:
+      - "Life as a single-celled organism in primordial oceans"
+      - "Living among dinosaurs during their extinction"
+
+  - arcName: "African Oral Tradition"
+    description: "African narratives encompass a wide range of genres, including epic, trickster tales, folktales, and praise poetry."
+    firstMention: "African oral traditions"
+    examples:
+      - "'Sundiata: An Epic of Old Mali' (Epic)"
+      - "Anansi the Spider tales (Trickster tales)"
+
+
+  - arcName: "Musical Alchemist"
+    description: "A struggling musician discovers the transformative power of music and strives to create an extraordinary symphony."
+    firstMention: "Transformative power of music"
+    examples:
+      - "'Symphony of Transformation' (Original composition)"
+      - "Using music to affect emotions"
+
+  - arcName: "Amharic Religious Parables"
+    description: "Ethiopian narratives that often incorporate moral or religious teachings."
+    firstMention: "Ethiopian literature"
+    examples:
+      - "The parables of 'Abba Daniel'"
+      - "The various teachings and parables found in the 'Book of Enoch'"
+
+  - arcName: "Circular Narrative"
+    description: "Emphasizes cycles, repetition, and community, often found in Native American and Aboriginal storytelling."
+    firstMention: "Indigenous oral traditions"
+    examples:
+      - "Leslie Marmon Silko's 'Ceremony'"
+      - "Aboriginal Dreamtime stories"
+  - arcName: "Comedy"
+    description: "A series of humorous or comedic events that lead to a happy ending."
+    firstMention: "Ancient Greek theatre"
+    examples:
+      - "'Much Ado About Nothing' by William Shakespeare"
+      - "'Bridget Jones's Diary' by Helen Fielding"
+
+  - arcName: "Coming of Age"
+    description: "The protagonist faces the trials of life, often for the first time, and emerges as a more mature individual."
+    firstMention: "Literary tradition in many cultures"
+    examples:
+      - "'To Kill a Mockingbird' by Harper Lee"
+      - "'The Catcher in the Rye' by J.D. Salinger"
+
+  - arcName: "Diné Bahane"
+    description: "A Navajo narrative detailing the creation of the world and the journey of the first people from the underworld to the earth."
+    firstMention: "Navajo oral tradition"
+    examples:
+      - "The actual 'Navajo creation story'"
+      - "Elements seen in contemporary Navajo literature and art"
+
+  - arcName: "Dunhuang Manuscripts"
+    description: "Chinese narratives and scriptures from the Dunhuang Caves, encompassing a variety of themes and styles."
+    firstMention: "Chinese literature"
+    examples:
+      - "'The Diamond Sutra'"
+      - "'Journey to the West' (influenced by Buddhist scriptures)"
+
+  - arcName: "Edda"
+    description: "A term used to describe two Medieval Icelandic literary works, one of which contains collection of Old Norse poems, and the other is a narrative about the Norse Gods and heroes."
+    firstMention: "Icelandic literature"
+    examples:
+      - "'Poetic Edda'"
+      - "'Prose Edda' by Snorri Sturluson"
+
+  - arcName: "Epic of Gilgamesh"
+    description: "An ancient Sumerian/Babylonian narrative about a hero's quest for immortality, featuring themes of friendship, loss, and the natural world."
+    firstMention: "Sumerian literature"
+    examples:
+      - "The actual 'Epic of Gilgamesh'"
+      - "Influences seen in later epics such as 'The Odyssey' and 'Beowulf'"
+
+  - arcName: "Four Great Classical Novels"
+    description: "Intricately structured Chinese narratives that blend history, myth, and social commentary."
+    firstMention: "Chinese literature"
+    examples:
+      - "'Journey to the West' by Wu Cheng'en"
+      - "'Dream of the Red Chamber' by Cao Xueqin"
+
+  - arcName: "Germanic Epic"
+    description: "Narratives featuring legendary heroes, historical events, and supernatural elements."
+    firstMention: "Germanic literature"
+    examples:
+      - "'Beowulf'"
+      - "'The Nibelungenlied'"
+
+  - arcName: "Hikayat"
+    description: "An Islamic narrative tradition that blends historical events, romance, and adventures, often used to communicate moral and religious teachings."
+    firstMention: "Islamic literature"
+    examples:
+      - "'Hikayat Seri Rama' (Malay adaptation of the Ramayana)"
+      - "'Hikayat Iskandar Zulkarnain' (Alexander the Great stories)"
+
+  - arcName: "Hungarian Folk Tales"
+    description: "Narratives characterized by magic, mythical creatures, and moral lessons."
+    firstMention: "Hungarian oral tradition"
+    examples:
+      - "'The Little Rooster and the Turkish Sultan'"
+      - "'Fairy Garden'"
+
+  - arcName: "Kishotenketsu"
+    description: "An East Asian structure involving introduction, development, twist, and reconciliation."
+    firstMention: "Classical Chinese and Japanese narratives"
+    examples:
+      - "'My Neighbor Totoro' by Hayao Miyazaki"
+      - "Many Manga and Anime series"
+
+  - arcName: "Love Stories"
+    description: "Two characters meet, form a relationship, face a crisis, and then resolve that crisis."
+    firstMention: "Literary tradition in many cultures"
+    examples:
+      - "'Pride and Prejudice' by Jane Austen"
+      - "'The Notebook' by Nicholas Sparks"
+
+  - arcName: "Monomyth / Hero's Journey"
+    description: "A universal narrative pattern where a hero goes on an adventure, wins a victory in a decisive crisis, and then comes back changed or transformed."
+    firstMention: "Found in many cultures worldwide"
+    examples:
+      - "'The Odyssey' by Homer"
+      - "'Star Wars' by George Lucas"
+
+  - arcName: "Nordic Saga"
+    description: "Narratives in Old Norse literature that detail heroic deeds, family histories, and mythological events."
+    firstMention: "Icelandic and other Nordic literature"
+    examples:
+      - "'Egils Saga'"
+      - "'Saga of the Volsungs'"
+
+  - arcName: "Overcoming the Monster"
+    description: "The hero sets out to defeat an evil force threatening their homeland."
+    firstMention: "Ancient mythology"
+    examples:
+      - "'Beowulf'"
+      - "'Jaws' by Steven Spielberg"
+
+  - arcName: "Panchatantra"
+    description: "Ancient Indian collection of interrelated animal fables, many with moral lessons."
+    firstMention: "Indian literature"
+    examples:
+      - "The actual 'Panchatantra' tales"
+      - "'Kalila and Dimna' (Arabic adaptation)"
+
+  - arcName: "Rags to Riches"
+    description: "The poor protagonist acquires wealth, loses it, then gains it back, growing as a person."
+    firstMention: "Folk tales and fairy tales"
+    examples:
+      - "'Cinderella'"
+      - "'Slumdog Millionaire' by Danny Boyle"
+
+  - arcName: "Rebirth"
+    description: "An event forces the main character to change their ways, often making them a better person."
+    firstMention: "Religious and mythological texts"
+    examples:
+      - "'A Christmas Carol' by Charles Dickens"
+      - "'Groundhog Day' by Harold Ramis"
+
+  - arcName: "Sufi Parables"
+    description: "Stories from the Islamic mystic tradition that illustrate moral and metaphysical concepts."
+    firstMention: "Sufi literature"
+    examples:
+      - "Stories of 'Mulla Nasreddin'"
+      - "Parables from 'The Masnavi' by Rumi"
+
+  - arcName: "The Quest"
+    description: "The hero and their companions set out to acquire a great prize."
+    firstMention: "Ancient mythology"
+    examples:
+      - "'The Lord of the Rings' by J.R.R. Tolkien"
+      - "'Indiana Jones' series by Steven Spielberg and George Lucas"
+
+  - arcName: "Transformation / Metamorphosis"
+    description: "The character undergoes significant personal growth or change."
+    firstMention: "Ancient mythology"
+    examples:
+      - "'Metamorphosis' by Franz Kafka"
+      - "'The Secret Life of Walter Mitty' by James Thurber"
+
+  - arcName: "Tragedy"
+    description: "The protagonist is a hero with one major character flaw or great mistake which is ultimately their undoing."
+    firstMention: "Ancient Greek theatre"
+    examples:
+      - "'Hamlet' by William Shakespeare"
+      - "'Death of a Salesman' by Arthur Miller"
+
+  - arcName: "Voyage and Return"
+    description: "The hero goes to a strange land and, after overcoming the threats it poses to them, they return with experience."
+    firstMention: "Ancient mythology"
+    examples:
+      - "'The Hobbit' by J.R.R. Tolkien"
+      - "'Alice's Adventures in Wonderland' by Lewis Carroll"
+

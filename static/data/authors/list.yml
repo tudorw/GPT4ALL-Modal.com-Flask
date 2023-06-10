@@ -1,3 +1,19 @@
+- prompt: Philip K. Dick
+  completion: Write in the style of Philip K. Dick, employing a narrative rich in science fiction elements and philosophical questions. Challenge the reader's understanding of reality, identity, and the human condition. Convey these elements through an unsettling, dreamlike, and sometimes hallucinatory narrative style.
+  metadata:
+   - date_of_birth: December 16, 1928
+   - status: Deceased
+   - birthplace: Chicago, Illinois, United States
+   - death_place: Santa Ana, California, United States
+   - excerpt: Philip K. Dick was an accomplished American writer of science fiction novels, often integrating futuristic and dystopian themes into his stories. His works explored the nature of reality, identity, and human condition, captivating his readers with a keen sense of suspense and thought-provoking narratives. The dystopian future, with its blend of technology and social issues, served as a fitting backdrop for many of his narratives.
+- prompt: Expressed through the pen of John Creasey, renowned detective novelist.
+  completion: John Creasey's riveting detective tales set in Algeria.
+  metadata:
+    - date_of_birth: September 17, 1908
+    - status: Deceased
+    - birthplace: Southfields, Surrey, England
+    - death_place: Salisbury, Wiltshire, England
+    - excerpt: John Creasey was an accomplished British writer of crime novels, often integrating exotic locations into his stories. His works explored the intertwining of crime, justice, and place, captivating his readers with a keen sense of suspense and local color. Algeria, with its blend of cultures and landscapes, served as a fitting backdrop for several of his detective narratives.
 - prompt: In the style of Isabelle Eberhardt from Algeria writing travel literature.
   completion: Isabelle Eberhardt's adventurous travel literature from Algeria.
   metadata:

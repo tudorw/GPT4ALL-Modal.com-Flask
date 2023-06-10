@@ -1,0 +1,90 @@
+Props:
+  - name: Antique Chandelier
+    description: A chandelier from the 18th century, slightly tarnished but still a beautiful piece.
+    size: 2m diameter, 3m height
+    weight: 60kg
+    provenance: Originally from an old manor in England.
+    related_scenes: [Abandoned Manor]
+    related_artifacts: [Antique Furniture, Faded Paintings]
+    previous_uses: Used in several period dramas and horror films.
+
+  - name: Space Suit
+    description: High-tech suits used by astronauts, made to replicate those used by NASA.
+    size: Various sizes available.
+    weight: 14kg
+    provenance: Manufactured for a sci-fi movie.
+    related_scenes: [Space Station]
+    related_artifacts: [Command Module]
+    previous_uses: Used in various science fiction films and TV series.
+
+  - name: Fishing Nets
+    description: Old, tangled fishing nets, showing signs of weathering.
+    size: Varies, some up to 10m in length.
+    weight: Varies, typically 5-10kg.
+    provenance: Collected from various coastal towns.
+    related_scenes: [Ship Graveyard]
+    related_artifacts: [Shipwrecks]
+    previous_uses: Used in sea-based dramas and horror movies.
+
+  - name: Lanterns
+    description: Colorful paper lanterns used in night markets.
+    size: Typically 30cm in diameter.
+    weight: Less than 1kg.
+    provenance: Imported from various Asian countries.
+    related_scenes: [Night Market]
+    related_artifacts: [Food Stalls]
+    previous_uses: Used in numerous films to create an authentic night market scene.
+
+  - name: Ancient Stone Pillar
+    description: A replica of an ancient stone pillar, showing signs of weathering and age.
+    size: 1m diameter, 3m height.
+    weight: 200kg.
+    provenance: Created by a team of movie set designers.
+    related_scenes: [Ancient Ruins]
+    related_artifacts: [Bas-Reliefs]
+    previous_uses: Used in historical dramas and adventure films.
+    
+  - name: Antique Desk
+    description: A large wooden desk from the 19th century, marked by years of use.
+    size: 1.5m width, 0.8m depth, 0.75m height
+    weight: 50kg
+    provenance: Acquired from an estate sale in France.
+    related_scenes: [Abandoned Manor]
+    related_artifacts: [Antique Furniture, Faded Paintings]
+    previous_uses: Used in several period dramas and mystery films.
+
+  - name: Market Stall
+    description: A small, portable stall used for selling goods at markets.
+    size: 3m width, 3m depth, 2.5m height
+    weight: 30kg
+    provenance: Crafted by local carpenters.
+    related_scenes: [Night Market]
+    related_artifacts: [Food Stalls, Lanterns]
+    previous_uses: Used in several films depicting vibrant market scenes.
+
+  - name: Ancient Statuette
+    description: A replica of an ancient statuette, carved from stone.
+    size: 0.3m width, 0.3m depth, 1m height
+    weight: 15kg
+    provenance: Created by professional prop makers.
+    related_scenes: [Ancient Ruins]
+    related_artifacts: [Stone Pillars, Bas-Reliefs]
+    previous_uses: Used in various historical dramas and documentaries.
+
+  - name: Fishing Boat
+    description: A small, wooden fishing boat with a vintage look.
+    size: 3m length, 1m width, 1.5m height
+    weight: 100kg
+    provenance: Acquired from a retired fisherman.
+    related_scenes: [Ship Graveyard, Beach, Lakeside]
+    related_artifacts: [Shipwrecks, Fishing Nets]
+    previous_uses: Used in various films, ranging from sea adventures to romantic dramas.
+
+  - name: Ornamental Garden Bench
+    description: A wrought-iron bench with intricate patterns, perfect for garden scenes.
+    size: 1.5m width, 0.6m depth, 0.9m height
+    weight: 30kg
+    provenance: Manufactured by a specialized garden furniture company.
+    related_scenes: [Palatial Gardens]
+    related_artifacts: [Flowerbeds]
+    previous_uses: Used in numerous films and TV shows depicting beautiful garden scenes.

@@ -1,0 +1,12 @@
+
+- water: true                      # Whether water element is present
+    - earth: true                      # Whether earth element is present
+    - air: true                        # Whether air element is present
+    - light: true                      # Whether light element is present
+    - darkness: true                   # Whether darkness element is present
+    - nature: true                     # Whether nature element is present
+    - ice: true                        # Whether ice element is present
+    - lightning: true                  # Whether lightning element is present
+    - energy: true                     # Whether energy element is present
+    - celestial: true                  # Whether celestial element is present
+    - chaos: true                      # Whether chaos element is present

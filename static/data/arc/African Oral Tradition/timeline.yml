@@ -1,0 +1,41 @@
+Timeline:
+  - Episode 1:
+      - Duration: 2 months
+      - Scenes: [Act 1: Scene 1, Act 1: Scene 2, Act 1: Scene 3]
+      - Timeline: [Month 1 - Month 2]
+  - Episode 2:
+      - Duration: 4 months
+      - Scenes: [Act 1: Scene 4, Act 2: Scene 5, Act 2: Scene 6]
+      - Timeline: [Month 3 - Month 6]
+  - Episode 3:
+      - Duration: 3 months
+      - Scenes: [Act 2: Scene 7, Act 2: Scene 8, Act 3: Scene 9]
+      - Timeline: [Month 7 - Month 9]
+  - Episode 4:
+      - Duration: 2 months
+      - Scenes: [Act 3: Scene 10, Act 3: Scene 11, Act 3: Scene 12]
+      - Timeline: [Month 10 - Month 11]
+  - Episode 5:
+      - Duration: 5 months
+      - Scenes: [Act 4: Scene 13, Act 4: Scene 14, Act 4: Scene 15]
+      - Timeline: [Month 12 - Month 16]
+  - Episode 6:
+      - Duration: 2 months
+      - Scenes: [Act 4: Scene 16, Act 5: Scene 17, Act 5: Scene 18]
+      - Timeline: [Month 17 - Month 18]
+  - Episode 7:
+      - Duration: 4 months
+      - Scenes: [Act 5: Scene 19, Act 5: Scene 20, Act 6: Scene 21]
+      - Timeline: [Month 19 - Month 22]
+  - Episode 8:
+      - Duration: 3 months
+      - Scenes: [Act 6: Scene 22, Act 6: Scene 23, Act 6: Scene 24]
+      - Timeline: [Month 23 - Month 25]
+  - Episode 9:
+      - Duration: 2 months
+      - Scenes: [Act 7: Scene 25, Act 7: Scene 26, Act 7: Scene 27]
+      - Timeline: [Month 26 - Month 27]
+  - Episode 10:
+      - Duration: 2 months
+      - Scenes: [Act 7: Scene 28]
+      - Timeline: [Month 28 - Month 29]

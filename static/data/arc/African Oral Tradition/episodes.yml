@@ -1,0 +1,97 @@
+episodes:
+  - episode: 1
+    duration: "1.5 hours"
+    timeline: "00:00 - 01:30"
+    scenes: 
+      - scene: "Act 1: Scene 1"
+        duration: "30 minutes"
+      - scene: "Act 1: Scene 2"
+        duration: "30 minutes"
+      - scene: "Act 1: Scene 3"
+        duration: "30 minutes"
+  - episode: 2
+    duration: "1.5 hours"
+    timeline: "01:30 - 03:00"
+    scenes: 
+      - scene: "Act 1: Scene 4"
+        duration: "30 minutes"
+      - scene: "Act 2: Scene 5"
+        duration: "30 minutes"
+      - scene: "Act 2: Scene 6"
+        duration: "30 minutes"
+  - episode: 3
+    duration: "1.5 hours"
+    timeline: "03:00 - 04:30"
+    scenes: 
+      - scene: "Act 2: Scene 7"
+        duration: "30 minutes"
+      - scene: "Act 2: Scene 8"
+        duration: "30 minutes"
+      - scene: "Act 3: Scene 9"
+        duration: "30 minutes"
+  - episode: 4
+    duration: "1.5 hours"
+    timeline: "04:30 - 06:00"
+    scenes: 
+      - scene: "Act 3: Scene 10"
+        duration: "30 minutes"
+      - scene: "Act 3: Scene 11"
+        duration: "30 minutes"
+      - scene: "Act 3: Scene 12"
+        duration: "30 minutes"
+  - episode: 5
+    duration: "1.5 hours"
+    timeline: "06:00 - 07:30"
+    scenes: 
+      - scene: "Act 4: Scene 13"
+        duration: "30 minutes"
+      - scene: "Act 4: Scene 14"
+        duration: "30 minutes"
+      - scene: "Act 4: Scene 15"
+        duration: "30 minutes"
+  - episode: 6
+    duration: "1.5 hours"
+    timeline: "07:30 - 09:00"
+    scenes: 
+      - scene: "Act 4: Scene 16"
+        duration: "30 minutes"
+      - scene: "Act 5: Scene 17"
+        duration: "30 minutes"
+      - scene: "Act 5: Scene 18"
+        duration: "30 minutes"
+  - episode: 7
+    duration: "1.5 hours"
+    timeline: "09:00 - 10:30"
+    scenes: 
+      - scene: "Act 5: Scene 19"
+        duration: "30 minutes"
+      - scene: "Act 5: Scene 20"
+        duration: "30 minutes"
+      - scene: "Act 6: Scene 21"
+        duration: "30 minutes"
+  - episode: 8
+    duration: "1.5 hours"
+    timeline: "10:30 - 12:00"
+    scenes: 
+      - scene: "Act 6: Scene 22"
+        duration: "30 minutes"
+      - scene: "Act 6: Scene 23"
+        duration: "30 minutes"
+      - scene: "Act 6: Scene 24"
+        duration: "30 minutes"
+  - episode: 9
+    duration: "1.5 hours"
+    timeline: "12:00 - 13:30"
+    scenes: 
+      - scene: "Act 7: Scene 25"
+        duration: "30 minutes"
+      - scene: "Act 7: Scene 26"
+        duration: "30 minutes"
+      - scene: "Act 7: Scene 27"
+        duration: "30 minutes"
+  - episode: 10
+    duration: "0.5 hours"
+    timeline: "13:30 - 14:00"
+    scenes: 
+      - scene: "Act 7: Scene 28"
+        duration: "30 minutes"

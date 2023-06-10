@@ -1,0 +1,78 @@
+Acts:
+  - Act 1:
+      - Scene 1:
+          - Action: "The story begins in the hostile environment of Earth's primordial soup."
+          - Set: "A tumultuous sea filled with swirling organic matter."
+          - Props:
+              - "Single-celled organism"
+      - Scene 2:
+          - Action: "The entity becomes multicellular and starts developing primitive senses."
+          - Set: "A vibrant ecosystem teeming with diverse life forms."
+          - Props:
+              - "Multicellular organism"
+              - "Primitive sensory organs"
+  - Act 2:
+      - Scene 3:
+          - Action: "Evolution propels the entity into a world of insects."
+          - Set: "A dense forest buzzing with life and filled with insects of all shapes and sizes."
+          - Props:
+              - "Insect-like creature"
+              - "Crawling and flying mechanisms"
+      - Scene 4:
+          - Action: "The entity experiences life as an amphibian, adapting to both water and land."
+          - Set: "A lush wetland with murky waters and verdant vegetation."
+          - Props:
+              - "Amphibious creature"
+              - "Webbed limbs"
+  - Act 3:
+      - Scene 5:
+          - Action: "As a small mammal, the entity faces constant fear and uncertainty among giant dinosaurs."
+          - Set: "A prehistoric landscape dominated by towering dinosaurs and lush foliage."
+          - Props:
+              - "Small mammal"
+              - "Hiding places"
+      - Scene 6:
+          - Action: "A massive asteroid impact triggers the extinction of dinosaurs."
+          - Set: "A devastated and desolate world recovering from the cataclysmic event."
+          - Props:
+              - "Fearful mammal"
+              - "Relief and survival instincts"
+  - Act 4:
+      - Scene 7:
+          - Action: "The entity evolves into an early hominid, developing complex emotions and social bonds."
+          - Set: "A primitive landscape with sparse vegetation and early hominid communities."
+          - Props:
+              - "Early hominid"
+              - "Basic tools"
+      - Scene 8:
+          - Action: "The entity's experiences involve territorial conflicts, the beginnings of culture, and primitive societies."
+          - Set: "A developing human settlement with rudimentary structures and communal activities."
+          - Props:
+              - "Primitive human"
+              - "Cultural artifacts"
+  - Act 5:
+      - Scene 9:
+          - Action: "As a human in ancient times, the entity is involved in the construction of early civilizations."
+          - Set: "An ancient city with grand architecture and bustling streets."
+          - Props:
+              - "Human"
+              - "Construction tools"
+      - Scene 10:
+          - Action: "The entity lives through the medieval period, witnessing the rise of science and philosophy."
+          - Set: "A medieval town with castles, markets, and scholars engaged in intellectual pursuits."
+          - Props:
+              - "Medieval human"
+              - "Books and scrolls"
+  - Act 6:
+      - Scene 11:
+          - Action: "The entity is now a human in the 21st century, grappling with modern issues."
+          - Set: "A contemporary urban landscape with diverse cultures and pressing global challenges."
+          - Props:
+              - "Modern human"
+              - "Newspapers and digital devices"
+      - Scene 12:
+          - Action: "The entity, now a leader, uses their unique empathy to unite the world."
+          - Set: "A global conference where representatives from all nations come together."
+          - Props:
+              - "Leader"
+              - "Speech and solutions"
